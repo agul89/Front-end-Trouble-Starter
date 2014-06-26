@@ -1,4 +1,25 @@
 /*
-* Front-end Trouble Starter
-* Quick webpage start framework
+	Front-end Trouble Starter
+	Quick webpage start framework
+
+	Core files:
+	+bootstrap
+	+jquery
+	+font awesome
+	+custom fonts
+
+	Project related:
+	+to be done
+
 */
+
+/* Core */
+// Bootstrap core css
+@import "bootstrap";
+// Additional Fonts
+@import "fonts/font-awesome";
+// jQuery User Interface
+@import "jquery-ui/jquery-ui-1.10.4.custom";
+
+/* Project related */
+// @import "project/some-file"
