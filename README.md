@@ -10,6 +10,11 @@ You don't need to setup anything, simply clone this repo and start writing your 
  * jquery
  * jquery ui
 
+## What do you need?
+ * sass 
+ * compass
+ * git
+
 ##How to install?
 Simply put this in console
 
