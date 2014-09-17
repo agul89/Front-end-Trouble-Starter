@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 	Front-end Trouble Starter
 	Quick webpage start framework
@@ -26,7 +27,7 @@ body {
   margin: 0;
 }
 
-/* line 43, ../sass/bootstrap/_normalize.scss */
+/* line 32, ../sass/bootstrap/_normalize.scss */
 article,
 aside,
 details,
@@ -42,7 +43,7 @@ summary {
   display: block;
 }
 
-/* line 55, ../sass/bootstrap/_normalize.scss */
+/* line 52, ../sass/bootstrap/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -57,7 +58,7 @@ audio:not([controls]) {
   height: 0;
 }
 
-/* line 76, ../sass/bootstrap/_normalize.scss */
+/* line 75, ../sass/bootstrap/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -68,7 +69,7 @@ a {
   background: transparent;
 }
 
-/* line 96, ../sass/bootstrap/_normalize.scss */
+/* line 95, ../sass/bootstrap/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -79,7 +80,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 116, ../sass/bootstrap/_normalize.scss */
+/* line 115, ../sass/bootstrap/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -107,7 +108,7 @@ small {
   font-size: 80%;
 }
 
-/* line 160, ../sass/bootstrap/_normalize.scss */
+/* line 159, ../sass/bootstrap/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -153,7 +154,7 @@ pre {
   overflow: auto;
 }
 
-/* line 230, ../sass/bootstrap/_normalize.scss */
+/* line 227, ../sass/bootstrap/_normalize.scss */
 code,
 kbd,
 pre,
@@ -162,7 +163,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 254, ../sass/bootstrap/_normalize.scss */
+/* line 250, ../sass/bootstrap/_normalize.scss */
 button,
 input,
 optgroup,
@@ -178,13 +179,13 @@ button {
   overflow: visible;
 }
 
-/* line 276, ../sass/bootstrap/_normalize.scss */
+/* line 275, ../sass/bootstrap/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 291, ../sass/bootstrap/_normalize.scss */
+/* line 288, ../sass/bootstrap/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -193,13 +194,13 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 301, ../sass/bootstrap/_normalize.scss */
+/* line 300, ../sass/bootstrap/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 310, ../sass/bootstrap/_normalize.scss */
+/* line 309, ../sass/bootstrap/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -211,14 +212,14 @@ input {
   line-height: normal;
 }
 
-/* line 333, ../sass/bootstrap/_normalize.scss */
+/* line 332, ../sass/bootstrap/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 345, ../sass/bootstrap/_normalize.scss */
+/* line 344, ../sass/bootstrap/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -232,7 +233,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 369, ../sass/bootstrap/_normalize.scss */
+/* line 368, ../sass/bootstrap/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -267,7 +268,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 423, ../sass/bootstrap/_normalize.scss */
+/* line 422, ../sass/bootstrap/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -282,7 +283,7 @@ th {
     box-shadow: none !important;
   }
 
-  /* line 16, ../sass/bootstrap/_print.scss */
+  /* line 15, ../sass/bootstrap/_print.scss */
   a,
   a:visited {
     text-decoration: underline;
@@ -298,13 +299,13 @@ th {
     content: " (" attr(title) ")";
   }
 
-  /* line 30, ../sass/bootstrap/_print.scss */
+  /* line 29, ../sass/bootstrap/_print.scss */
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 35, ../sass/bootstrap/_print.scss */
+  /* line 34, ../sass/bootstrap/_print.scss */
   pre,
   blockquote {
     border: 1px solid #999;
@@ -316,7 +317,7 @@ th {
     display: table-header-group;
   }
 
-  /* line 45, ../sass/bootstrap/_print.scss */
+  /* line 44, ../sass/bootstrap/_print.scss */
   tr,
   img {
     page-break-inside: avoid;
@@ -327,7 +328,7 @@ th {
     max-width: 100% !important;
   }
 
-  /* line 55, ../sass/bootstrap/_print.scss */
+  /* line 53, ../sass/bootstrap/_print.scss */
   p,
   h2,
   h3 {
@@ -335,7 +336,7 @@ th {
     widows: 3;
   }
 
-  /* line 61, ../sass/bootstrap/_print.scss */
+  /* line 60, ../sass/bootstrap/_print.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -351,7 +352,7 @@ th {
     display: none;
   }
 
-  /* line 77, ../sass/bootstrap/_print.scss */
+  /* line 76, ../sass/bootstrap/_print.scss */
   .table td,
   .table th {
     background-color: #fff !important;
@@ -373,7 +374,7 @@ th {
     border-collapse: collapse !important;
   }
 
-  /* line 96, ../sass/bootstrap/_print.scss */
+  /* line 95, ../sass/bootstrap/_print.scss */
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
@@ -384,7 +385,6 @@ th {
   src: url("bootstrap/glyphicons-halflings-regular.eot");
   src: url("bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
-
 /* line 25, ../sass/bootstrap/_glyphicons.scss */
 .glyphicon {
   position: relative;
@@ -1405,7 +1405,7 @@ th {
   box-sizing: border-box;
 }
 
-/* line 15, ../sass/bootstrap/_scaffolding.scss */
+/* line 14, ../sass/bootstrap/_scaffolding.scss */
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
@@ -1416,7 +1416,7 @@ th {
 /* line 22, ../sass/bootstrap/_scaffolding.scss */
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* line 27, ../sass/bootstrap/_scaffolding.scss */
@@ -1425,10 +1425,10 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  background-color: white;
+  background-color: #fff;
 }
 
-/* line 39, ../sass/bootstrap/_scaffolding.scss */
+/* line 36, ../sass/bootstrap/_scaffolding.scss */
 input,
 button,
 select,
@@ -1443,7 +1443,7 @@ a {
   color: #428bca;
   text-decoration: none;
 }
-/* line 53, ../sass/bootstrap/_scaffolding.scss */
+/* line 52, ../sass/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
   color: #2a6496;
   text-decoration: underline;
@@ -1481,8 +1481,8 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: white;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1517,7 +1517,7 @@ hr {
   border: 0;
 }
 
-/* line 142, ../sass/bootstrap/_scaffolding.scss */
+/* line 141, ../sass/bootstrap/_scaffolding.scss */
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
   width: auto;
@@ -1527,7 +1527,7 @@ hr {
   clip: auto;
 }
 
-/* line 10, ../sass/bootstrap/_type.scss */
+/* line 9, ../sass/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
@@ -1535,7 +1535,7 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.1;
   color: inherit;
 }
-/* line 17, ../sass/bootstrap/_type.scss */
+/* line 16, ../sass/bootstrap/_type.scss */
 h1 small,
 h1 .small, h2 small,
 h2 .small, h3 small,
@@ -1555,14 +1555,14 @@ h6 .small,
   color: #999999;
 }
 
-/* line 26, ../sass/bootstrap/_type.scss */
+/* line 24, ../sass/bootstrap/_type.scss */
 h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 31, ../sass/bootstrap/_type.scss */
+/* line 30, ../sass/bootstrap/_type.scss */
 h1 small,
 h1 .small, .h1 small,
 .h1 .small,
@@ -1575,14 +1575,14 @@ h3 .small, .h3 small,
   font-size: 65%;
 }
 
-/* line 37, ../sass/bootstrap/_type.scss */
+/* line 35, ../sass/bootstrap/_type.scss */
 h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 42, ../sass/bootstrap/_type.scss */
+/* line 41, ../sass/bootstrap/_type.scss */
 h4 small,
 h4 .small, .h4 small,
 .h4 .small,
@@ -1644,7 +1644,7 @@ p {
   }
 }
 
-/* line 79, ../sass/bootstrap/_type.scss */
+/* line 78, ../sass/bootstrap/_type.scss */
 small,
 .small {
   font-size: 85%;
@@ -1655,7 +1655,7 @@ cite {
   font-style: normal;
 }
 
-/* line 85, ../sass/bootstrap/_type.scss */
+/* line 84, ../sass/bootstrap/_type.scss */
 mark,
 .mark {
   background-color: #fcf8e3;
@@ -1799,13 +1799,13 @@ a.bg-danger:hover {
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 145, ../sass/bootstrap/_type.scss */
+/* line 144, ../sass/bootstrap/_type.scss */
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 149, ../sass/bootstrap/_type.scss */
+/* line 148, ../sass/bootstrap/_type.scss */
 ul ul,
 ul ol,
 ol ul,
@@ -1836,7 +1836,7 @@ dl {
   margin-bottom: 20px;
 }
 
-/* line 180, ../sass/bootstrap/_type.scss */
+/* line 179, ../sass/bootstrap/_type.scss */
 dt,
 dd {
   line-height: 1.42857;
@@ -1852,7 +1852,7 @@ dd {
   margin-left: 0;
 }
 
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .dl-horizontal dd:before, .dl-horizontal dd:after {
   content: " ";
   display: table;
@@ -1878,7 +1878,7 @@ dd {
   }
 }
 
-/* line 221, ../sass/bootstrap/_type.scss */
+/* line 219, ../sass/bootstrap/_type.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
@@ -1904,7 +1904,7 @@ blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
-/* line 249, ../sass/bootstrap/_type.scss */
+/* line 247, ../sass/bootstrap/_type.scss */
 blockquote footer,
 blockquote small,
 blockquote .small {
@@ -1920,7 +1920,7 @@ blockquote .small:before {
   content: '\2014 \00A0';
 }
 
-/* line 265, ../sass/bootstrap/_type.scss */
+/* line 264, ../sass/bootstrap/_type.scss */
 .blockquote-reverse,
 blockquote.pull-right {
   padding-right: 15px;
@@ -1948,7 +1948,7 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 
-/* line 285, ../sass/bootstrap/_type.scss */
+/* line 284, ../sass/bootstrap/_type.scss */
 blockquote:before,
 blockquote:after {
   content: "";
@@ -1961,7 +1961,7 @@ address {
   line-height: 1.42857;
 }
 
-/* line 10, ../sass/bootstrap/_code.scss */
+/* line 7, ../sass/bootstrap/_code.scss */
 code,
 kbd,
 pre,
@@ -1982,8 +1982,8 @@ code {
 kbd {
   padding: 2px 4px;
   font-size: 90%;
-  color: white;
-  background-color: #333333;
+  color: #fff;
+  background-color: #333;
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -1998,8 +1998,8 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   color: #333333;
-  background-color: whitesmoke;
-  border: 1px solid #cccccc;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 /* line 48, ../sass/bootstrap/_code.scss */
@@ -2025,7 +2025,7 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .container:before, .container:after {
   content: " ";
   display: table;
@@ -2060,7 +2060,7 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .container-fluid:before, .container-fluid:after {
   content: " ";
   display: table;
@@ -2075,7 +2075,7 @@ pre code {
   margin-left: -15px;
   margin-right: -15px;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .row:before, .row:after {
   content: " ";
   display: table;
@@ -3152,7 +3152,7 @@ th {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 26, ../sass/bootstrap/_tables.scss */
+/* line 25, ../sass/bootstrap/_tables.scss */
 .table > thead > tr > th,
 .table > thead > tr > td,
 .table > tbody > tr > th,
@@ -3162,14 +3162,14 @@ th {
   padding: 8px;
   line-height: 1.42857;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddd;
 }
 /* line 35, ../sass/bootstrap/_tables.scss */
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #ddd;
 }
-/* line 45, ../sass/bootstrap/_tables.scss */
+/* line 44, ../sass/bootstrap/_tables.scss */
 .table > caption + thead > tr:first-child > th,
 .table > caption + thead > tr:first-child > td,
 .table > colgroup + thead > tr:first-child > th,
@@ -3180,14 +3180,14 @@ th {
 }
 /* line 51, ../sass/bootstrap/_tables.scss */
 .table > tbody + tbody {
-  border-top: 2px solid #dddddd;
+  border-top: 2px solid #ddd;
 }
 /* line 56, ../sass/bootstrap/_tables.scss */
 .table .table {
-  background-color: white;
+  background-color: #fff;
 }
 
-/* line 70, ../sass/bootstrap/_tables.scss */
+/* line 69, ../sass/bootstrap/_tables.scss */
 .table-condensed > thead > tr > th,
 .table-condensed > thead > tr > td,
 .table-condensed > tbody > tr > th,
@@ -3199,33 +3199,33 @@ th {
 
 /* line 82, ../sass/bootstrap/_tables.scss */
 .table-bordered {
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
 }
-/* line 89, ../sass/bootstrap/_tables.scss */
+/* line 88, ../sass/bootstrap/_tables.scss */
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > th,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > th,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
 }
-/* line 96, ../sass/bootstrap/_tables.scss */
+/* line 95, ../sass/bootstrap/_tables.scss */
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
   border-bottom-width: 2px;
 }
 
-/* line 110, ../sass/bootstrap/_tables.scss */
+/* line 109, ../sass/bootstrap/_tables.scss */
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: #f9f9f9;
 }
 
-/* line 124, ../sass/bootstrap/_tables.scss */
+/* line 123, ../sass/bootstrap/_tables.scss */
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 
 /* line 135, ../sass/bootstrap/_tables.scss */
@@ -3243,7 +3243,7 @@ table th[class*="col-"] {
   display: table-cell;
 }
 
-/* line 12, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 9, ../sass/bootstrap/mixins/_table-row.scss */
 .table > thead > tr > td.active,
 .table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
 .table > tbody > tr > td.active,
@@ -3254,16 +3254,16 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.active,
 .table > tfoot > tr.active > td,
 .table > tfoot > tr.active > th {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 
-/* line 24, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 20, ../sass/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
   background-color: #e8e8e8;
 }
 
-/* line 12, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 9, ../sass/bootstrap/mixins/_table-row.scss */
 .table > thead > tr > td.success,
 .table > thead > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th,
 .table > tbody > tr > td.success,
@@ -3277,13 +3277,13 @@ table th[class*="col-"] {
   background-color: #dff0d8;
 }
 
-/* line 24, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 20, ../sass/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th {
   background-color: #d0e9c6;
 }
 
-/* line 12, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 9, ../sass/bootstrap/mixins/_table-row.scss */
 .table > thead > tr > td.info,
 .table > thead > tr > th.info, .table > thead > tr.info > td, .table > thead > tr.info > th,
 .table > tbody > tr > td.info,
@@ -3297,13 +3297,13 @@ table th[class*="col-"] {
   background-color: #d9edf7;
 }
 
-/* line 24, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 20, ../sass/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover, .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
   background-color: #c4e3f3;
 }
 
-/* line 12, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 9, ../sass/bootstrap/mixins/_table-row.scss */
 .table > thead > tr > td.warning,
 .table > thead > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th,
 .table > tbody > tr > td.warning,
@@ -3317,13 +3317,13 @@ table th[class*="col-"] {
   background-color: #fcf8e3;
 }
 
-/* line 24, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 20, ../sass/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.warning:hover,
 .table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr.warning:hover > th {
   background-color: #faf2cc;
 }
 
-/* line 12, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 9, ../sass/bootstrap/mixins/_table-row.scss */
 .table > thead > tr > td.danger,
 .table > thead > tr > th.danger, .table > thead > tr.danger > td, .table > thead > tr.danger > th,
 .table > tbody > tr > td.danger,
@@ -3337,7 +3337,7 @@ table th[class*="col-"] {
   background-color: #f2dede;
 }
 
-/* line 24, ../sass/bootstrap/mixins/_table-row.scss */
+/* line 20, ../sass/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.danger:hover,
 .table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr.danger:hover > th {
   background-color: #ebcccc;
@@ -3351,14 +3351,14 @@ table th[class*="col-"] {
     overflow-y: hidden;
     overflow-x: scroll;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
     -webkit-overflow-scrolling: touch;
   }
   /* line 182, ../sass/bootstrap/_tables.scss */
   .table-responsive > .table {
     margin-bottom: 0;
   }
-  /* line 191, ../sass/bootstrap/_tables.scss */
+  /* line 190, ../sass/bootstrap/_tables.scss */
   .table-responsive > .table > thead > tr > th,
   .table-responsive > .table > thead > tr > td,
   .table-responsive > .table > tbody > tr > th,
@@ -3371,7 +3371,7 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered {
     border: 0;
   }
-  /* line 208, ../sass/bootstrap/_tables.scss */
+  /* line 207, ../sass/bootstrap/_tables.scss */
   .table-responsive > .table-bordered > thead > tr > th:first-child,
   .table-responsive > .table-bordered > thead > tr > td:first-child,
   .table-responsive > .table-bordered > tbody > tr > th:first-child,
@@ -3380,7 +3380,7 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr > td:first-child {
     border-left: 0;
   }
-  /* line 212, ../sass/bootstrap/_tables.scss */
+  /* line 211, ../sass/bootstrap/_tables.scss */
   .table-responsive > .table-bordered > thead > tr > th:last-child,
   .table-responsive > .table-bordered > thead > tr > td:last-child,
   .table-responsive > .table-bordered > tbody > tr > th:last-child,
@@ -3389,7 +3389,7 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr > td:last-child {
     border-right: 0;
   }
-  /* line 225, ../sass/bootstrap/_tables.scss */
+  /* line 224, ../sass/bootstrap/_tables.scss */
   .table-responsive > .table-bordered > tbody > tr:last-child > th,
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
   .table-responsive > .table-bordered > tfoot > tr:last-child > th,
@@ -3434,7 +3434,7 @@ input[type="search"] {
   box-sizing: border-box;
 }
 
-/* line 53, ../sass/bootstrap/_forms.scss */
+/* line 52, ../sass/bootstrap/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -3453,13 +3453,13 @@ input[type="range"] {
   width: 100%;
 }
 
-/* line 72, ../sass/bootstrap/_forms.scss */
+/* line 71, ../sass/bootstrap/_forms.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
-/* line 79, ../sass/bootstrap/_forms.scss */
+/* line 77, ../sass/bootstrap/_forms.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -3486,9 +3486,9 @@ output {
   font-size: 14px;
   line-height: 1.42857;
   color: #555555;
-  background-color: white;
+  background-color: #fff;
   background-image: none;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3516,7 +3516,7 @@ output {
 .form-control::-webkit-input-placeholder {
   color: #999999;
 }
-/* line 143, ../sass/bootstrap/_forms.scss */
+/* line 141, ../sass/bootstrap/_forms.scss */
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
   cursor: not-allowed;
   background-color: #eeeeee;
@@ -3533,7 +3533,7 @@ input[type="search"] {
   -webkit-appearance: none;
 }
 
-/* line 179, ../sass/bootstrap/_forms.scss */
+/* line 176, ../sass/bootstrap/_forms.scss */
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
@@ -3583,7 +3583,7 @@ input[type="month"].input-lg,
   margin-bottom: 15px;
 }
 
-/* line 208, ../sass/bootstrap/_forms.scss */
+/* line 207, ../sass/bootstrap/_forms.scss */
 .radio,
 .checkbox {
   display: block;
@@ -3600,7 +3600,7 @@ input[type="month"].input-lg,
   cursor: pointer;
 }
 
-/* line 224, ../sass/bootstrap/_forms.scss */
+/* line 221, ../sass/bootstrap/_forms.scss */
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -3609,13 +3609,13 @@ input[type="month"].input-lg,
   margin-left: -20px;
 }
 
-/* line 229, ../sass/bootstrap/_forms.scss */
+/* line 228, ../sass/bootstrap/_forms.scss */
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
 }
 
-/* line 235, ../sass/bootstrap/_forms.scss */
+/* line 234, ../sass/bootstrap/_forms.scss */
 .radio-inline,
 .checkbox-inline {
   display: inline-block;
@@ -3626,14 +3626,14 @@ input[type="month"].input-lg,
   cursor: pointer;
 }
 
-/* line 244, ../sass/bootstrap/_forms.scss */
+/* line 243, ../sass/bootstrap/_forms.scss */
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
   margin-left: 10px;
 }
 
-/* line 259, ../sass/bootstrap/_forms.scss */
+/* line 258, ../sass/bootstrap/_forms.scss */
 input[type="radio"][disabled], fieldset[disabled] input[type="radio"],
 input[type="checkbox"][disabled], fieldset[disabled]
 input[type="checkbox"],
@@ -3667,7 +3667,7 @@ select.input-sm, .input-group-sm > select.form-control,
   line-height: 30px;
 }
 
-/* line 81, ../sass/bootstrap/mixins/_forms.scss */
+/* line 80, ../sass/bootstrap/mixins/_forms.scss */
 textarea.input-sm, .input-group-sm > textarea.form-control,
 .input-group-sm > textarea.input-group-addon,
 .input-group-sm > .input-group-btn > textarea.btn,
@@ -3697,7 +3697,7 @@ select.input-lg, .input-group-lg > select.form-control,
   line-height: 46px;
 }
 
-/* line 81, ../sass/bootstrap/mixins/_forms.scss */
+/* line 80, ../sass/bootstrap/mixins/_forms.scss */
 textarea.input-lg, .input-group-lg > textarea.form-control,
 .input-group-lg > textarea.input-group-addon,
 .input-group-lg > .input-group-btn > textarea.btn,
@@ -3748,7 +3748,7 @@ select[multiple].input-lg,
   line-height: 30px;
 }
 
-/* line 13, ../sass/bootstrap/mixins/_forms.scss */
+/* line 8, ../sass/bootstrap/mixins/_forms.scss */
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -3780,7 +3780,7 @@ select[multiple].input-lg,
   color: #3c763d;
 }
 
-/* line 13, ../sass/bootstrap/mixins/_forms.scss */
+/* line 8, ../sass/bootstrap/mixins/_forms.scss */
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -3812,7 +3812,7 @@ select[multiple].input-lg,
   color: #8a6d3b;
 }
 
-/* line 13, ../sass/bootstrap/mixins/_forms.scss */
+/* line 8, ../sass/bootstrap/mixins/_forms.scss */
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
@@ -3875,7 +3875,7 @@ select[multiple].input-lg,
     display: inline-table;
     vertical-align: middle;
   }
-  /* line 382, ../sass/bootstrap/_forms.scss */
+  /* line 380, ../sass/bootstrap/_forms.scss */
   .form-inline .input-group .input-group-addon, .navbar-form .input-group .input-group-addon,
   .form-inline .input-group .input-group-btn,
   .navbar-form .input-group .input-group-btn,
@@ -3892,7 +3892,7 @@ select[multiple].input-lg,
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 401, ../sass/bootstrap/_forms.scss */
+  /* line 400, ../sass/bootstrap/_forms.scss */
   .form-inline .radio, .navbar-form .radio,
   .form-inline .checkbox,
   .navbar-form .checkbox {
@@ -3902,7 +3902,7 @@ select[multiple].input-lg,
     padding-left: 0;
     vertical-align: middle;
   }
-  /* line 409, ../sass/bootstrap/_forms.scss */
+  /* line 408, ../sass/bootstrap/_forms.scss */
   .form-inline .radio input[type="radio"], .navbar-form .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"],
   .navbar-form .checkbox input[type="checkbox"] {
@@ -3915,7 +3915,7 @@ select[multiple].input-lg,
   }
 }
 
-/* line 438, ../sass/bootstrap/_forms.scss */
+/* line 435, ../sass/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
@@ -3924,7 +3924,7 @@ select[multiple].input-lg,
   margin-bottom: 0;
   padding-top: 7px;
 }
-/* line 446, ../sass/bootstrap/_forms.scss */
+/* line 445, ../sass/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
   min-height: 27px;
@@ -3934,7 +3934,7 @@ select[multiple].input-lg,
   margin-left: -15px;
   margin-right: -15px;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .form-horizontal .form-group:before, .form-horizontal .form-group:after {
   content: " ";
   display: table;
@@ -3988,19 +3988,19 @@ select[multiple].input-lg,
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 31, ../sass/bootstrap/_buttons.scss */
+/* line 30, ../sass/bootstrap/_buttons.scss */
 .btn:hover, .btn:focus {
-  color: #333333;
+  color: #333;
   text-decoration: none;
 }
-/* line 37, ../sass/bootstrap/_buttons.scss */
+/* line 36, ../sass/bootstrap/_buttons.scss */
 .btn:active, .btn.active {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 45, ../sass/bootstrap/_buttons.scss */
+/* line 43, ../sass/bootstrap/_buttons.scss */
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
   cursor: not-allowed;
   pointer-events: none;
@@ -4012,48 +4012,48 @@ select[multiple].input-lg,
 
 /* line 57, ../sass/bootstrap/_buttons.scss */
 .btn-default {
-  color: #333333;
-  background-color: white;
-  border-color: #cccccc;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
 }
-/* line 15, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 11, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  color: #333333;
+  color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
-/* line 22, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 20, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   background-image: none;
 }
-/* line 32, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 28, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: white;
-  border-color: #cccccc;
+  background-color: #fff;
+  border-color: #ccc;
 }
 /* line 38, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
-  color: white;
-  background-color: #333333;
+  color: #fff;
+  background-color: #333;
 }
 
 /* line 60, ../sass/bootstrap/_buttons.scss */
 .btn-primary {
-  color: white;
+  color: #fff;
   background-color: #428bca;
   border-color: #357ebd;
 }
-/* line 15, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 11, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-  color: white;
+  color: #fff;
   background-color: #3071a9;
   border-color: #285e8e;
 }
-/* line 22, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 20, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   background-image: none;
 }
-/* line 32, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 28, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
   background-color: #428bca;
   border-color: #357ebd;
@@ -4061,26 +4061,26 @@ select[multiple].input-lg,
 /* line 38, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
   color: #428bca;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* line 64, ../sass/bootstrap/_buttons.scss */
 .btn-success {
-  color: white;
+  color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
-/* line 15, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 11, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
-  color: white;
+  color: #fff;
   background-color: #449d44;
   border-color: #398439;
 }
-/* line 22, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 20, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
   background-image: none;
 }
-/* line 32, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 28, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
   background-color: #5cb85c;
   border-color: #4cae4c;
@@ -4088,26 +4088,26 @@ select[multiple].input-lg,
 /* line 38, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-success .badge {
   color: #5cb85c;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* line 68, ../sass/bootstrap/_buttons.scss */
 .btn-info {
-  color: white;
+  color: #fff;
   background-color: #5bc0de;
   border-color: #46b8da;
 }
-/* line 15, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 11, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
-  color: white;
+  color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
 }
-/* line 22, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 20, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
   background-image: none;
 }
-/* line 32, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 28, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
   background-color: #5bc0de;
   border-color: #46b8da;
@@ -4115,26 +4115,26 @@ select[multiple].input-lg,
 /* line 38, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-info .badge {
   color: #5bc0de;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* line 72, ../sass/bootstrap/_buttons.scss */
 .btn-warning {
-  color: white;
+  color: #fff;
   background-color: #f0ad4e;
   border-color: #eea236;
 }
-/* line 15, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 11, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
-  color: white;
+  color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
 }
-/* line 22, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 20, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
   background-image: none;
 }
-/* line 32, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 28, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
   background-color: #f0ad4e;
   border-color: #eea236;
@@ -4142,26 +4142,26 @@ select[multiple].input-lg,
 /* line 38, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-warning .badge {
   color: #f0ad4e;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* line 76, ../sass/bootstrap/_buttons.scss */
 .btn-danger {
-  color: white;
+  color: #fff;
   background-color: #d9534f;
   border-color: #d43f3a;
 }
-/* line 15, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 11, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
-  color: white;
+  color: #fff;
   background-color: #c9302c;
   border-color: #ac2925;
 }
-/* line 22, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 20, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
   background-image: none;
 }
-/* line 32, ../sass/bootstrap/mixins/_buttons.scss */
+/* line 28, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
   background-color: #d9534f;
   border-color: #d43f3a;
@@ -4169,7 +4169,7 @@ select[multiple].input-lg,
 /* line 38, ../sass/bootstrap/mixins/_buttons.scss */
 .btn-danger .badge {
   color: #d9534f;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* line 85, ../sass/bootstrap/_buttons.scss */
@@ -4179,23 +4179,23 @@ select[multiple].input-lg,
   cursor: pointer;
   border-radius: 0;
 }
-/* line 94, ../sass/bootstrap/_buttons.scss */
+/* line 91, ../sass/bootstrap/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 101, ../sass/bootstrap/_buttons.scss */
+/* line 98, ../sass/bootstrap/_buttons.scss */
 .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
   border-color: transparent;
 }
-/* line 105, ../sass/bootstrap/_buttons.scss */
+/* line 104, ../sass/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
   color: #2a6496;
   text-decoration: underline;
   background-color: transparent;
 }
-/* line 113, ../sass/bootstrap/_buttons.scss */
+/* line 112, ../sass/bootstrap/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
   color: #999999;
   text-decoration: none;
@@ -4322,8 +4322,8 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: white;
-  border: 1px solid #cccccc;
+  background-color: #fff;
+  border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -4353,27 +4353,27 @@ tbody.collapse.in {
   white-space: nowrap;
 }
 
-/* line 77, ../sass/bootstrap/_dropdowns.scss */
+/* line 76, ../sass/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 
-/* line 88, ../sass/bootstrap/_dropdowns.scss */
+/* line 86, ../sass/bootstrap/_dropdowns.scss */
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-  color: white;
+  color: #fff;
   text-decoration: none;
   outline: 0;
   background-color: #428bca;
 }
 
-/* line 103, ../sass/bootstrap/_dropdowns.scss */
+/* line 101, ../sass/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   color: #999999;
 }
 
-/* line 110, ../sass/bootstrap/_dropdowns.scss */
+/* line 109, ../sass/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
   background-color: transparent;
@@ -4455,7 +4455,7 @@ tbody.collapse.in {
     right: auto;
   }
 }
-/* line 7, ../sass/bootstrap/_button-groups.scss */
+/* line 6, ../sass/bootstrap/_button-groups.scss */
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -4468,7 +4468,7 @@ tbody.collapse.in {
   position: relative;
   float: left;
 }
-/* line 18, ../sass/bootstrap/_button-groups.scss */
+/* line 15, ../sass/bootstrap/_button-groups.scss */
 .btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
 .btn-group-vertical > .btn:hover,
 .btn-group-vertical > .btn:focus,
@@ -4482,7 +4482,7 @@ tbody.collapse.in {
   outline: 0;
 }
 
-/* line 33, ../sass/bootstrap/_button-groups.scss */
+/* line 30, ../sass/bootstrap/_button-groups.scss */
 .btn-group .btn + .btn,
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
@@ -4494,7 +4494,7 @@ tbody.collapse.in {
 .btn-toolbar {
   margin-left: -5px;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .btn-toolbar:before, .btn-toolbar:after {
   content: " ";
   display: table;
@@ -4503,12 +4503,12 @@ tbody.collapse.in {
 .btn-toolbar:after {
   clear: both;
 }
-/* line 44, ../sass/bootstrap/_button-groups.scss */
+/* line 43, ../sass/bootstrap/_button-groups.scss */
 .btn-toolbar .btn-group,
 .btn-toolbar .input-group {
   float: left;
 }
-/* line 49, ../sass/bootstrap/_button-groups.scss */
+/* line 47, ../sass/bootstrap/_button-groups.scss */
 .btn-toolbar > .btn,
 .btn-toolbar > .btn-group,
 .btn-toolbar > .input-group {
@@ -4530,7 +4530,7 @@ tbody.collapse.in {
   border-top-right-radius: 0;
 }
 
-/* line 67, ../sass/bootstrap/_button-groups.scss */
+/* line 66, ../sass/bootstrap/_button-groups.scss */
 .btn-group > .btn:last-child:not(:first-child),
 .btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
@@ -4547,7 +4547,7 @@ tbody.collapse.in {
   border-radius: 0;
 }
 
-/* line 80, ../sass/bootstrap/_button-groups.scss */
+/* line 79, ../sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-group:first-child > .btn:last-child,
 .btn-group > .btn-group:first-child > .dropdown-toggle {
   border-bottom-right-radius: 0;
@@ -4560,7 +4560,7 @@ tbody.collapse.in {
   border-top-left-radius: 0;
 }
 
-/* line 90, ../sass/bootstrap/_button-groups.scss */
+/* line 89, ../sass/bootstrap/_button-groups.scss */
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle {
   outline: 0;
@@ -4605,7 +4605,7 @@ tbody.collapse.in {
   border-width: 0 5px 5px;
 }
 
-/* line 150, ../sass/bootstrap/_button-groups.scss */
+/* line 148, ../sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn,
 .btn-group-vertical > .btn-group,
 .btn-group-vertical > .btn-group > .btn {
@@ -4614,7 +4614,7 @@ tbody.collapse.in {
   width: 100%;
   max-width: 100%;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after {
   content: " ";
   display: table;
@@ -4627,7 +4627,7 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group > .btn {
   float: none;
 }
-/* line 168, ../sass/bootstrap/_button-groups.scss */
+/* line 165, ../sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn + .btn,
 .btn-group-vertical > .btn + .btn-group,
 .btn-group-vertical > .btn-group + .btn,
@@ -4658,7 +4658,7 @@ tbody.collapse.in {
   border-radius: 0;
 }
 
-/* line 192, ../sass/bootstrap/_button-groups.scss */
+/* line 191, ../sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
@@ -4678,7 +4678,7 @@ tbody.collapse.in {
   table-layout: fixed;
   border-collapse: separate;
 }
-/* line 211, ../sass/bootstrap/_button-groups.scss */
+/* line 210, ../sass/bootstrap/_button-groups.scss */
 .btn-group-justified > .btn,
 .btn-group-justified > .btn-group {
   float: none;
@@ -4690,7 +4690,7 @@ tbody.collapse.in {
   width: 100%;
 }
 
-/* line 232, ../sass/bootstrap/_button-groups.scss */
+/* line 231, ../sass/bootstrap/_button-groups.scss */
 [data-toggle="buttons"] > .btn > input[type="radio"],
 [data-toggle="buttons"] > .btn > input[type="checkbox"] {
   position: absolute;
@@ -4719,7 +4719,7 @@ tbody.collapse.in {
   margin-bottom: 0;
 }
 
-/* line 52, ../sass/bootstrap/_input-groups.scss */
+/* line 50, ../sass/bootstrap/_input-groups.scss */
 .input-group-addon,
 .input-group-btn,
 .input-group .form-control {
@@ -4732,7 +4732,7 @@ tbody.collapse.in {
   border-radius: 0;
 }
 
-/* line 61, ../sass/bootstrap/_input-groups.scss */
+/* line 60, ../sass/bootstrap/_input-groups.scss */
 .input-group-addon,
 .input-group-btn {
   width: 1%;
@@ -4749,7 +4749,7 @@ tbody.collapse.in {
   color: #555555;
   text-align: center;
   background-color: #eeeeee;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 /* line 81, ../sass/bootstrap/_input-groups.scss */
@@ -4768,13 +4768,13 @@ tbody.collapse.in {
   font-size: 18px;
   border-radius: 6px;
 }
-/* line 94, ../sass/bootstrap/_input-groups.scss */
+/* line 93, ../sass/bootstrap/_input-groups.scss */
 .input-group-addon input[type="radio"],
 .input-group-addon input[type="checkbox"] {
   margin-top: 0;
 }
 
-/* line 106, ../sass/bootstrap/_input-groups.scss */
+/* line 100, ../sass/bootstrap/_input-groups.scss */
 .input-group .form-control:first-child,
 .input-group-addon:first-child,
 .input-group-btn:first-child > .btn,
@@ -4791,7 +4791,7 @@ tbody.collapse.in {
   border-right: 0;
 }
 
-/* line 118, ../sass/bootstrap/_input-groups.scss */
+/* line 112, ../sass/bootstrap/_input-groups.scss */
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
 .input-group-btn:last-child > .btn,
@@ -4822,16 +4822,16 @@ tbody.collapse.in {
 .input-group-btn > .btn + .btn {
   margin-left: -1px;
 }
-/* line 144, ../sass/bootstrap/_input-groups.scss */
+/* line 142, ../sass/bootstrap/_input-groups.scss */
 .input-group-btn > .btn:hover, .input-group-btn > .btn:focus, .input-group-btn > .btn:active {
   z-index: 2;
 }
-/* line 152, ../sass/bootstrap/_input-groups.scss */
+/* line 151, ../sass/bootstrap/_input-groups.scss */
 .input-group-btn:first-child > .btn,
 .input-group-btn:first-child > .btn-group {
   margin-right: -1px;
 }
-/* line 158, ../sass/bootstrap/_input-groups.scss */
+/* line 157, ../sass/bootstrap/_input-groups.scss */
 .input-group-btn:last-child > .btn,
 .input-group-btn:last-child > .btn-group {
   margin-left: -1px;
@@ -4843,7 +4843,7 @@ tbody.collapse.in {
   padding-left: 0;
   list-style: none;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .nav:before, .nav:after {
   content: " ";
   display: table;
@@ -4863,7 +4863,7 @@ tbody.collapse.in {
   display: block;
   padding: 10px 15px;
 }
-/* line 24, ../sass/bootstrap/_navs.scss */
+/* line 23, ../sass/bootstrap/_navs.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
@@ -4872,14 +4872,14 @@ tbody.collapse.in {
 .nav > li.disabled > a {
   color: #999999;
 }
-/* line 35, ../sass/bootstrap/_navs.scss */
+/* line 34, ../sass/bootstrap/_navs.scss */
 .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
   color: #999999;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
-/* line 48, ../sass/bootstrap/_navs.scss */
+/* line 46, ../sass/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
   border-color: #428bca;
@@ -4898,7 +4898,7 @@ tbody.collapse.in {
 
 /* line 76, ../sass/bootstrap/_navs.scss */
 .nav-tabs {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 /* line 78, ../sass/bootstrap/_navs.scss */
 .nav-tabs > li {
@@ -4914,13 +4914,13 @@ tbody.collapse.in {
 }
 /* line 89, ../sass/bootstrap/_navs.scss */
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd;
+  border-color: #eeeeee #eeeeee #ddd;
 }
-/* line 98, ../sass/bootstrap/_navs.scss */
+/* line 96, ../sass/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: white;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
 }
@@ -4937,9 +4937,9 @@ tbody.collapse.in {
 .nav-pills > li + li {
   margin-left: 2px;
 }
-/* line 133, ../sass/bootstrap/_navs.scss */
+/* line 131, ../sass/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  color: white;
+  color: #fff;
   background-color: #428bca;
 }
 
@@ -4992,27 +4992,27 @@ tbody.collapse.in {
   margin-right: 0;
   border-radius: 4px;
 }
-/* line 201, ../sass/bootstrap/_navs.scss */
+/* line 199, ../sass/bootstrap/_navs.scss */
 .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus,
 .nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
 }
 @media (min-width: 768px) {
   /* line 206, ../sass/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ddd;
     border-radius: 4px 4px 0 0;
   }
-  /* line 212, ../sass/bootstrap/_navs.scss */
+  /* line 210, ../sass/bootstrap/_navs.scss */
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: white;
+    border-bottom-color: #fff;
   }
 }
 
@@ -5039,7 +5039,7 @@ tbody.collapse.in {
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .navbar:before, .navbar:after {
   content: " ";
   display: table;
@@ -5055,7 +5055,7 @@ tbody.collapse.in {
   }
 }
 
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .navbar-header:before, .navbar-header:after {
   content: " ";
   display: table;
@@ -5080,7 +5080,7 @@ tbody.collapse.in {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .navbar-collapse:before, .navbar-collapse:after {
   content: " ";
   display: table;
@@ -5111,7 +5111,7 @@ tbody.collapse.in {
   .navbar-collapse.in {
     overflow-y: visible;
   }
-  /* line 83, ../sass/bootstrap/_navbar.scss */
+  /* line 81, ../sass/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
@@ -5131,7 +5131,7 @@ tbody.collapse.in {
   }
 }
 
-/* line 109, ../sass/bootstrap/_navbar.scss */
+/* line 108, ../sass/bootstrap/_navbar.scss */
 .container > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
@@ -5140,7 +5140,7 @@ tbody.collapse.in {
   margin-left: -15px;
 }
 @media (min-width: 768px) {
-  /* line 109, ../sass/bootstrap/_navbar.scss */
+  /* line 108, ../sass/bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-header,
@@ -5162,7 +5162,7 @@ tbody.collapse.in {
   }
 }
 
-/* line 139, ../sass/bootstrap/_navbar.scss */
+/* line 138, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -5171,7 +5171,7 @@ tbody.collapse.in {
   z-index: 1030;
 }
 @media (min-width: 768px) {
-  /* line 139, ../sass/bootstrap/_navbar.scss */
+  /* line 138, ../sass/bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
@@ -5199,12 +5199,12 @@ tbody.collapse.in {
   line-height: 20px;
   height: 50px;
 }
-/* line 171, ../sass/bootstrap/_navbar.scss */
+/* line 170, ../sass/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
 @media (min-width: 768px) {
-  /* line 177, ../sass/bootstrap/_navbar.scss */
+  /* line 176, ../sass/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
   }
@@ -5266,7 +5266,7 @@ tbody.collapse.in {
     border: 0;
     box-shadow: none;
   }
-  /* line 248, ../sass/bootstrap/_navbar.scss */
+  /* line 247, ../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
@@ -5275,7 +5275,7 @@ tbody.collapse.in {
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
   }
-  /* line 254, ../sass/bootstrap/_navbar.scss */
+  /* line 253, ../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
@@ -5402,112 +5402,112 @@ tbody.collapse.in {
 }
 /* line 397, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: #777;
 }
-/* line 400, ../sass/bootstrap/_navbar.scss */
+/* line 399, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #5e5e5e;
   background-color: transparent;
 }
 /* line 406, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
-  color: #777777;
+  color: #777;
 }
 /* line 411, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #777;
 }
-/* line 415, ../sass/bootstrap/_navbar.scss */
+/* line 414, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #333;
   background-color: transparent;
 }
-/* line 423, ../sass/bootstrap/_navbar.scss */
+/* line 421, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #555555;
+  color: #555;
   background-color: #e7e7e7;
 }
-/* line 431, ../sass/bootstrap/_navbar.scss */
+/* line 429, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
-  color: #cccccc;
+  color: #ccc;
   background-color: transparent;
 }
 /* line 438, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle {
-  border-color: #dddddd;
+  border-color: #ddd;
 }
-/* line 441, ../sass/bootstrap/_navbar.scss */
+/* line 440, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 /* line 444, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888888;
+  background-color: #888;
 }
-/* line 450, ../sass/bootstrap/_navbar.scss */
+/* line 449, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
-/* line 460, ../sass/bootstrap/_navbar.scss */
+/* line 458, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   background-color: #e7e7e7;
-  color: #555555;
+  color: #555;
 }
 @media (max-width: 767px) {
   /* line 469, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: #777;
   }
-  /* line 472, ../sass/bootstrap/_navbar.scss */
+  /* line 471, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333333;
+    color: #333;
     background-color: transparent;
   }
-  /* line 480, ../sass/bootstrap/_navbar.scss */
+  /* line 478, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555555;
+    color: #555;
     background-color: #e7e7e7;
   }
-  /* line 488, ../sass/bootstrap/_navbar.scss */
+  /* line 486, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #cccccc;
+    color: #ccc;
     background-color: transparent;
   }
 }
 /* line 502, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link {
-  color: #777777;
+  color: #777;
 }
 /* line 504, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {
-  color: #333333;
+  color: #333;
 }
 /* line 509, ../sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link {
-  color: #777777;
+  color: #777;
 }
-/* line 512, ../sass/bootstrap/_navbar.scss */
+/* line 511, ../sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-  color: #333333;
+  color: #333;
 }
-/* line 518, ../sass/bootstrap/_navbar.scss */
+/* line 517, ../sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
-  color: #cccccc;
+  color: #ccc;
 }
 
 /* line 527, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #222;
   border-color: #090909;
 }
 /* line 531, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #999999;
 }
-/* line 534, ../sass/bootstrap/_navbar.scss */
+/* line 533, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-  color: white;
+  color: #fff;
   background-color: transparent;
 }
 /* line 540, ../sass/bootstrap/_navbar.scss */
@@ -5518,42 +5518,42 @@ tbody.collapse.in {
 .navbar-inverse .navbar-nav > li > a {
   color: #999999;
 }
-/* line 549, ../sass/bootstrap/_navbar.scss */
+/* line 548, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: white;
+  color: #fff;
   background-color: transparent;
 }
-/* line 557, ../sass/bootstrap/_navbar.scss */
+/* line 555, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  color: white;
+  color: #fff;
   background-color: #090909;
 }
-/* line 565, ../sass/bootstrap/_navbar.scss */
+/* line 563, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #444444;
+  color: #444;
   background-color: transparent;
 }
 /* line 573, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle {
-  border-color: #333333;
+  border-color: #333;
 }
-/* line 576, ../sass/bootstrap/_navbar.scss */
+/* line 575, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #333333;
+  background-color: #333;
 }
 /* line 579, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: #fff;
 }
-/* line 585, ../sass/bootstrap/_navbar.scss */
+/* line 584, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
 }
-/* line 594, ../sass/bootstrap/_navbar.scss */
+/* line 592, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #090909;
-  color: white;
+  color: #fff;
 }
 @media (max-width: 767px) {
   /* line 603, ../sass/bootstrap/_navbar.scss */
@@ -5568,19 +5568,19 @@ tbody.collapse.in {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #999999;
   }
-  /* line 612, ../sass/bootstrap/_navbar.scss */
+  /* line 611, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: white;
+    color: #fff;
     background-color: transparent;
   }
-  /* line 620, ../sass/bootstrap/_navbar.scss */
+  /* line 618, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: white;
+    color: #fff;
     background-color: #090909;
   }
-  /* line 628, ../sass/bootstrap/_navbar.scss */
+  /* line 626, ../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #444444;
+    color: #444;
     background-color: transparent;
   }
 }
@@ -5590,19 +5590,19 @@ tbody.collapse.in {
 }
 /* line 639, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
-  color: white;
+  color: #fff;
 }
 /* line 644, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
   color: #999999;
 }
-/* line 647, ../sass/bootstrap/_navbar.scss */
+/* line 646, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
-  color: white;
+  color: #fff;
 }
-/* line 653, ../sass/bootstrap/_navbar.scss */
+/* line 652, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
-  color: #444444;
+  color: #444;
 }
 
 /* line 6, ../sass/bootstrap/_breadcrumbs.scss */
@@ -5610,7 +5610,7 @@ tbody.collapse.in {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border-radius: 4px;
 }
 /* line 13, ../sass/bootstrap/_breadcrumbs.scss */
@@ -5619,9 +5619,9 @@ tbody.collapse.in {
 }
 /* line 16, ../sass/bootstrap/_breadcrumbs.scss */
 .breadcrumb > li + li:before {
-  content: "/\00a0";
+  content: "/ ";
   padding: 0 5px;
-  color: #cccccc;
+  color: #ccc;
 }
 /* line 23, ../sass/bootstrap/_breadcrumbs.scss */
 .breadcrumb > .active {
@@ -5639,7 +5639,7 @@ tbody.collapse.in {
 .pagination > li {
   display: inline;
 }
-/* line 13, ../sass/bootstrap/_pagination.scss */
+/* line 12, ../sass/bootstrap/_pagination.scss */
 .pagination > li > a,
 .pagination > li > span {
   position: relative;
@@ -5648,43 +5648,43 @@ tbody.collapse.in {
   line-height: 1.42857;
   text-decoration: none;
   color: #428bca;
-  background-color: white;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
   margin-left: -1px;
 }
-/* line 26, ../sass/bootstrap/_pagination.scss */
+/* line 25, ../sass/bootstrap/_pagination.scss */
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
 }
-/* line 33, ../sass/bootstrap/_pagination.scss */
+/* line 32, ../sass/bootstrap/_pagination.scss */
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
 }
-/* line 42, ../sass/bootstrap/_pagination.scss */
+/* line 41, ../sass/bootstrap/_pagination.scss */
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   color: #2a6496;
   background-color: #eeeeee;
-  border-color: #dddddd;
+  border-color: #ddd;
 }
-/* line 53, ../sass/bootstrap/_pagination.scss */
+/* line 51, ../sass/bootstrap/_pagination.scss */
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
 .pagination > .active > span,
 .pagination > .active > span:hover,
 .pagination > .active > span:focus {
   z-index: 2;
-  color: white;
+  color: #fff;
   background-color: #428bca;
   border-color: #428bca;
   cursor: default;
 }
-/* line 68, ../sass/bootstrap/_pagination.scss */
+/* line 63, ../sass/bootstrap/_pagination.scss */
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
 .pagination > .disabled > span:focus,
@@ -5692,43 +5692,43 @@ tbody.collapse.in {
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   color: #999999;
-  background-color: white;
-  border-color: #dddddd;
+  background-color: #fff;
+  border-color: #ddd;
   cursor: not-allowed;
 }
 
-/* line 6, ../sass/bootstrap/mixins/_pagination.scss */
+/* line 5, ../sass/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
   font-size: 18px;
 }
-/* line 12, ../sass/bootstrap/mixins/_pagination.scss */
+/* line 11, ../sass/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
   border-bottom-left-radius: 6px;
   border-top-left-radius: 6px;
 }
-/* line 18, ../sass/bootstrap/mixins/_pagination.scss */
+/* line 17, ../sass/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
   border-bottom-right-radius: 6px;
   border-top-right-radius: 6px;
 }
 
-/* line 6, ../sass/bootstrap/mixins/_pagination.scss */
+/* line 5, ../sass/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
   font-size: 12px;
 }
-/* line 12, ../sass/bootstrap/mixins/_pagination.scss */
+/* line 11, ../sass/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
 }
-/* line 18, ../sass/bootstrap/mixins/_pagination.scss */
+/* line 17, ../sass/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
   border-bottom-right-radius: 3px;
@@ -5742,7 +5742,7 @@ tbody.collapse.in {
   list-style: none;
   text-align: center;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .pager:before, .pager:after {
   content: " ";
   display: table;
@@ -5755,38 +5755,38 @@ tbody.collapse.in {
 .pager li {
   display: inline;
 }
-/* line 15, ../sass/bootstrap/_pager.scss */
+/* line 14, ../sass/bootstrap/_pager.scss */
 .pager li > a,
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: white;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 15px;
 }
-/* line 24, ../sass/bootstrap/_pager.scss */
+/* line 23, ../sass/bootstrap/_pager.scss */
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
 }
-/* line 32, ../sass/bootstrap/_pager.scss */
+/* line 31, ../sass/bootstrap/_pager.scss */
 .pager .next > a,
 .pager .next > span {
   float: right;
 }
-/* line 39, ../sass/bootstrap/_pager.scss */
+/* line 38, ../sass/bootstrap/_pager.scss */
 .pager .previous > a,
 .pager .previous > span {
   float: left;
 }
-/* line 48, ../sass/bootstrap/_pager.scss */
+/* line 45, ../sass/bootstrap/_pager.scss */
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #999999;
-  background-color: white;
+  background-color: #fff;
   cursor: not-allowed;
 }
 
@@ -5797,7 +5797,7 @@ tbody.collapse.in {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: white;
+  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -5813,9 +5813,9 @@ tbody.collapse.in {
   top: -1px;
 }
 
-/* line 34, ../sass/bootstrap/_labels.scss */
+/* line 33, ../sass/bootstrap/_labels.scss */
 a.label:hover, a.label:focus {
-  color: white;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -5824,7 +5824,7 @@ a.label:hover, a.label:focus {
 .label-default {
   background-color: #999999;
 }
-/* line 8, ../sass/bootstrap/mixins/_labels.scss */
+/* line 7, ../sass/bootstrap/mixins/_labels.scss */
 .label-default[href]:hover, .label-default[href]:focus {
   background-color: gray;
 }
@@ -5833,7 +5833,7 @@ a.label:hover, a.label:focus {
 .label-primary {
   background-color: #428bca;
 }
-/* line 8, ../sass/bootstrap/mixins/_labels.scss */
+/* line 7, ../sass/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
   background-color: #3071a9;
 }
@@ -5842,7 +5842,7 @@ a.label:hover, a.label:focus {
 .label-success {
   background-color: #5cb85c;
 }
-/* line 8, ../sass/bootstrap/mixins/_labels.scss */
+/* line 7, ../sass/bootstrap/mixins/_labels.scss */
 .label-success[href]:hover, .label-success[href]:focus {
   background-color: #449d44;
 }
@@ -5851,7 +5851,7 @@ a.label:hover, a.label:focus {
 .label-info {
   background-color: #5bc0de;
 }
-/* line 8, ../sass/bootstrap/mixins/_labels.scss */
+/* line 7, ../sass/bootstrap/mixins/_labels.scss */
 .label-info[href]:hover, .label-info[href]:focus {
   background-color: #31b0d5;
 }
@@ -5860,7 +5860,7 @@ a.label:hover, a.label:focus {
 .label-warning {
   background-color: #f0ad4e;
 }
-/* line 8, ../sass/bootstrap/mixins/_labels.scss */
+/* line 7, ../sass/bootstrap/mixins/_labels.scss */
 .label-warning[href]:hover, .label-warning[href]:focus {
   background-color: #ec971f;
 }
@@ -5869,7 +5869,7 @@ a.label:hover, a.label:focus {
 .label-danger {
   background-color: #d9534f;
 }
-/* line 8, ../sass/bootstrap/mixins/_labels.scss */
+/* line 7, ../sass/bootstrap/mixins/_labels.scss */
 .label-danger[href]:hover, .label-danger[href]:focus {
   background-color: #c9302c;
 }
@@ -5881,7 +5881,7 @@ a.label:hover, a.label:focus {
   padding: 3px 7px;
   font-size: 12px;
   font-weight: bold;
-  color: white;
+  color: #fff;
   line-height: 1;
   vertical-align: baseline;
   white-space: nowrap;
@@ -5903,19 +5903,19 @@ a.label:hover, a.label:focus {
   top: 0;
   padding: 1px 5px;
 }
-/* line 40, ../sass/bootstrap/_badges.scss */
+/* line 39, ../sass/bootstrap/_badges.scss */
 a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
   color: #428bca;
-  background-color: white;
+  background-color: #fff;
 }
 /* line 44, ../sass/bootstrap/_badges.scss */
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
 
-/* line 52, ../sass/bootstrap/_badges.scss */
+/* line 51, ../sass/bootstrap/_badges.scss */
 a.badge:hover, a.badge:focus {
-  color: white;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -5927,7 +5927,7 @@ a.badge:hover, a.badge:focus {
   color: inherit;
   background-color: #eeeeee;
 }
-/* line 13, ../sass/bootstrap/_jumbotron.scss */
+/* line 12, ../sass/bootstrap/_jumbotron.scss */
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
@@ -5961,7 +5961,7 @@ a.badge:hover, a.badge:focus {
     padding-left: 60px;
     padding-right: 60px;
   }
-  /* line 44, ../sass/bootstrap/_jumbotron.scss */
+  /* line 43, ../sass/bootstrap/_jumbotron.scss */
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
@@ -5974,14 +5974,14 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857;
-  background-color: white;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 18, ../sass/bootstrap/_thumbnails.scss */
+/* line 17, ../sass/bootstrap/_thumbnails.scss */
 .thumbnail > img,
 .thumbnail a > img {
   display: block;
@@ -5996,7 +5996,7 @@ a.badge:hover, a.badge:focus {
   color: #333333;
 }
 
-/* line 36, ../sass/bootstrap/_thumbnails.scss */
+/* line 34, ../sass/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
@@ -6019,7 +6019,7 @@ a.thumbnail.active {
 .alert .alert-link {
   font-weight: bold;
 }
-/* line 28, ../sass/bootstrap/_alerts.scss */
+/* line 27, ../sass/bootstrap/_alerts.scss */
 .alert > p,
 .alert > ul {
   margin-bottom: 0;
@@ -6102,23 +6102,19 @@ a.thumbnail.active {
 }
 
 @keyframes progress-bar-stripes {
-  /* line 10, ../sass/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0;
   }
-
-  /* line 11, ../sass/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0;
   }
 }
-
 /* line 20, ../sass/bootstrap/_progress-bars.scss */
 .progress {
   overflow: hidden;
   height: 20px;
   margin-bottom: 20px;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -6131,7 +6127,7 @@ a.thumbnail.active {
   height: 100%;
   font-size: 12px;
   line-height: 20px;
-  color: white;
+  color: #fff;
   text-align: center;
   background-color: #428bca;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
@@ -6156,7 +6152,7 @@ a.thumbnail.active {
   animation: progress-bar-stripes 2s linear infinite;
 }
 
-/* line 57, ../sass/bootstrap/_progress-bars.scss */
+/* line 56, ../sass/bootstrap/_progress-bars.scss */
 .progress-bar[aria-valuenow="1"], .progress-bar[aria-valuenow="2"] {
   min-width: 30px;
 }
@@ -6213,14 +6209,14 @@ a.thumbnail.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* line 11, ../sass/bootstrap/_media.scss */
+/* line 10, ../sass/bootstrap/_media.scss */
 .media,
 .media-body {
   overflow: hidden;
   zoom: 1;
 }
 
-/* line 18, ../sass/bootstrap/_media.scss */
+/* line 17, ../sass/bootstrap/_media.scss */
 .media,
 .media .media {
   margin-top: 15px;
@@ -6268,8 +6264,8 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: white;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
 }
 /* line 31, ../sass/bootstrap/_list-group.scss */
 .list-group-item:first-child {
@@ -6293,20 +6289,20 @@ a.thumbnail.active {
 
 /* line 54, ../sass/bootstrap/_list-group.scss */
 a.list-group-item {
-  color: #555555;
+  color: #555;
 }
 /* line 57, ../sass/bootstrap/_list-group.scss */
 a.list-group-item .list-group-item-heading {
-  color: #333333;
+  color: #333;
 }
-/* line 63, ../sass/bootstrap/_list-group.scss */
+/* line 62, ../sass/bootstrap/_list-group.scss */
 a.list-group-item:hover, a.list-group-item:focus {
   text-decoration: none;
-  color: #555555;
-  background-color: whitesmoke;
+  color: #555;
+  background-color: #f5f5f5;
 }
 
-/* line 74, ../sass/bootstrap/_list-group.scss */
+/* line 72, ../sass/bootstrap/_list-group.scss */
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
   background-color: #eeeeee;
   color: #999999;
@@ -6319,10 +6315,10 @@ a.list-group-item:hover, a.list-group-item:focus {
 .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
   color: #999999;
 }
-/* line 90, ../sass/bootstrap/_list-group.scss */
+/* line 88, ../sass/bootstrap/_list-group.scss */
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
-  color: white;
+  color: #fff;
   background-color: #428bca;
   border-color: #428bca;
 }
@@ -6349,12 +6345,12 @@ a.list-group-item-success {
 a.list-group-item-success .list-group-item-heading {
   color: inherit;
 }
-/* line 19, ../sass/bootstrap/mixins/_list-group.scss */
+/* line 18, ../sass/bootstrap/mixins/_list-group.scss */
 a.list-group-item-success:hover, a.list-group-item-success:focus {
   color: #3c763d;
   background-color: #d0e9c6;
 }
-/* line 25, ../sass/bootstrap/mixins/_list-group.scss */
+/* line 23, ../sass/bootstrap/mixins/_list-group.scss */
 a.list-group-item-success.active, a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
   color: #fff;
   background-color: #3c763d;
@@ -6375,12 +6371,12 @@ a.list-group-item-info {
 a.list-group-item-info .list-group-item-heading {
   color: inherit;
 }
-/* line 19, ../sass/bootstrap/mixins/_list-group.scss */
+/* line 18, ../sass/bootstrap/mixins/_list-group.scss */
 a.list-group-item-info:hover, a.list-group-item-info:focus {
   color: #31708f;
   background-color: #c4e3f3;
 }
-/* line 25, ../sass/bootstrap/mixins/_list-group.scss */
+/* line 23, ../sass/bootstrap/mixins/_list-group.scss */
 a.list-group-item-info.active, a.list-group-item-info.active:hover, a.list-group-item-info.active:focus {
   color: #fff;
   background-color: #31708f;
@@ -6401,12 +6397,12 @@ a.list-group-item-warning {
 a.list-group-item-warning .list-group-item-heading {
   color: inherit;
 }
-/* line 19, ../sass/bootstrap/mixins/_list-group.scss */
+/* line 18, ../sass/bootstrap/mixins/_list-group.scss */
 a.list-group-item-warning:hover, a.list-group-item-warning:focus {
   color: #8a6d3b;
   background-color: #faf2cc;
 }
-/* line 25, ../sass/bootstrap/mixins/_list-group.scss */
+/* line 23, ../sass/bootstrap/mixins/_list-group.scss */
 a.list-group-item-warning.active, a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus {
   color: #fff;
   background-color: #8a6d3b;
@@ -6427,12 +6423,12 @@ a.list-group-item-danger {
 a.list-group-item-danger .list-group-item-heading {
   color: inherit;
 }
-/* line 19, ../sass/bootstrap/mixins/_list-group.scss */
+/* line 18, ../sass/bootstrap/mixins/_list-group.scss */
 a.list-group-item-danger:hover, a.list-group-item-danger:focus {
   color: #a94442;
   background-color: #ebcccc;
 }
-/* line 25, ../sass/bootstrap/mixins/_list-group.scss */
+/* line 23, ../sass/bootstrap/mixins/_list-group.scss */
 a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
   color: #fff;
   background-color: #a94442;
@@ -6454,7 +6450,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 7, ../sass/bootstrap/_panels.scss */
 .panel {
   margin-bottom: 20px;
-  background-color: white;
+  background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -6465,7 +6461,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-body {
   padding: 15px;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .panel-body:before, .panel-body:after {
   content: " ";
   display: table;
@@ -6502,8 +6498,8 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 45, ../sass/bootstrap/_panels.scss */
 .panel-footer {
   padding: 10px 15px;
-  background-color: whitesmoke;
-  border-top: 1px solid #dddddd;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -6535,18 +6531,18 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   border-top-width: 0;
 }
 
-/* line 98, ../sass/bootstrap/_panels.scss */
+/* line 97, ../sass/bootstrap/_panels.scss */
 .panel > .table,
 .panel > .table-responsive > .table {
   margin-bottom: 0;
 }
-/* line 103, ../sass/bootstrap/_panels.scss */
+/* line 102, ../sass/bootstrap/_panels.scss */
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
-/* line 110, ../sass/bootstrap/_panels.scss */
+/* line 109, ../sass/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
 .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
@@ -6557,7 +6553,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
   border-top-left-radius: 3px;
 }
-/* line 114, ../sass/bootstrap/_panels.scss */
+/* line 113, ../sass/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
 .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
@@ -6568,13 +6564,13 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
   border-top-right-radius: 3px;
 }
-/* line 122, ../sass/bootstrap/_panels.scss */
+/* line 121, ../sass/bootstrap/_panels.scss */
 .panel > .table:last-child,
 .panel > .table-responsive:last-child > .table:last-child {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-/* line 129, ../sass/bootstrap/_panels.scss */
+/* line 128, ../sass/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
 .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
@@ -6585,7 +6581,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
   border-bottom-left-radius: 3px;
 }
-/* line 133, ../sass/bootstrap/_panels.scss */
+/* line 132, ../sass/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
 .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
@@ -6596,22 +6592,22 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
   border-bottom-right-radius: 3px;
 }
-/* line 140, ../sass/bootstrap/_panels.scss */
+/* line 139, ../sass/bootstrap/_panels.scss */
 .panel > .panel-body + .table,
 .panel > .panel-body + .table-responsive {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddd;
 }
-/* line 144, ../sass/bootstrap/_panels.scss */
+/* line 143, ../sass/bootstrap/_panels.scss */
 .panel > .table > tbody:first-child > tr:first-child th,
 .panel > .table > tbody:first-child > tr:first-child td {
   border-top: 0;
 }
-/* line 148, ../sass/bootstrap/_panels.scss */
+/* line 147, ../sass/bootstrap/_panels.scss */
 .panel > .table-bordered,
 .panel > .table-responsive > .table-bordered {
   border: 0;
 }
-/* line 155, ../sass/bootstrap/_panels.scss */
+/* line 154, ../sass/bootstrap/_panels.scss */
 .panel > .table-bordered > thead > tr > th:first-child,
 .panel > .table-bordered > thead > tr > td:first-child,
 .panel > .table-bordered > tbody > tr > th:first-child,
@@ -6626,7 +6622,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
   border-left: 0;
 }
-/* line 159, ../sass/bootstrap/_panels.scss */
+/* line 158, ../sass/bootstrap/_panels.scss */
 .panel > .table-bordered > thead > tr > th:last-child,
 .panel > .table-bordered > thead > tr > td:last-child,
 .panel > .table-bordered > tbody > tr > th:last-child,
@@ -6641,7 +6637,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
   border-right: 0;
 }
-/* line 168, ../sass/bootstrap/_panels.scss */
+/* line 167, ../sass/bootstrap/_panels.scss */
 .panel > .table-bordered > thead > tr:first-child > td,
 .panel > .table-bordered > thead > tr:first-child > th,
 .panel > .table-bordered > tbody > tr:first-child > td,
@@ -6652,7 +6648,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
   border-bottom: 0;
 }
-/* line 177, ../sass/bootstrap/_panels.scss */
+/* line 176, ../sass/bootstrap/_panels.scss */
 .panel > .table-bordered > tbody > tr:last-child > td,
 .panel > .table-bordered > tbody > tr:last-child > th,
 .panel > .table-bordered > tfoot > tr:last-child > td,
@@ -6688,7 +6684,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 /* line 209, ../sass/bootstrap/_panels.scss */
 .panel-group .panel-heading + .panel-collapse .panel-body {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddd;
 }
 /* line 213, ../sass/bootstrap/_panels.scss */
 .panel-group .panel-footer {
@@ -6696,26 +6692,26 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 /* line 215, ../sass/bootstrap/_panels.scss */
 .panel-group .panel-footer + .panel-collapse .panel-body {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 
 /* line 223, ../sass/bootstrap/_panels.scss */
 .panel-default {
-  border-color: #dddddd;
+  border-color: #ddd;
 }
 /* line 6, ../sass/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: whitesmoke;
-  border-color: #dddddd;
+  background-color: #f5f5f5;
+  border-color: #ddd;
 }
 /* line 11, ../sass/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #dddddd;
+  border-top-color: #ddd;
 }
 /* line 16, ../sass/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #dddddd;
+  border-bottom-color: #ddd;
 }
 
 /* line 226, ../sass/bootstrap/_panels.scss */
@@ -6724,7 +6720,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 /* line 6, ../sass/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading {
-  color: white;
+  color: #fff;
   background-color: #428bca;
   border-color: #428bca;
 }
@@ -6821,7 +6817,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   padding: 0;
   overflow: hidden;
 }
-/* line 15, ../sass/bootstrap/_responsive-embed.scss */
+/* line 12, ../sass/bootstrap/_responsive-embed.scss */
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
 .embed-responsive embed,
@@ -6848,7 +6844,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -6878,14 +6874,14 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
-  color: black;
-  text-shadow: 0 1px 0 white;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
-/* line 16, ../sass/bootstrap/_close.scss */
+/* line 15, ../sass/bootstrap/_close.scss */
 .close:hover, .close:focus {
-  color: black;
+  color: #000;
   text-decoration: none;
   cursor: pointer;
   opacity: 0.5;
@@ -6949,8 +6945,8 @@ button.close {
 /* line 48, ../sass/bootstrap/_modals.scss */
 .modal-content {
   position: relative;
-  background-color: white;
-  border: 1px solid #999999;
+  background-color: #fff;
+  border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -6967,7 +6963,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: black;
+  background-color: #000;
 }
 /* line 70, ../sass/bootstrap/_modals.scss */
 .modal-backdrop.fade {
@@ -7010,7 +7006,7 @@ button.close {
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .modal-footer:before, .modal-footer:after {
   content: " ";
   display: table;
@@ -7107,10 +7103,10 @@ button.close {
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
-  color: white;
+  color: #fff;
   text-align: center;
   text-decoration: none;
-  background-color: black;
+  background-color: #000;
   border-radius: 4px;
 }
 
@@ -7129,21 +7125,21 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: black;
+  border-top-color: #000;
 }
 /* line 50, ../sass/bootstrap/_tooltip.scss */
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   left: 5px;
   border-width: 5px 5px 0;
-  border-top-color: black;
+  border-top-color: #000;
 }
 /* line 56, ../sass/bootstrap/_tooltip.scss */
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   right: 5px;
   border-width: 5px 5px 0;
-  border-top-color: black;
+  border-top-color: #000;
 }
 /* line 62, ../sass/bootstrap/_tooltip.scss */
 .tooltip.right .tooltip-arrow {
@@ -7151,7 +7147,7 @@ button.close {
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: black;
+  border-right-color: #000;
 }
 /* line 69, ../sass/bootstrap/_tooltip.scss */
 .tooltip.left .tooltip-arrow {
@@ -7159,7 +7155,7 @@ button.close {
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: black;
+  border-left-color: #000;
 }
 /* line 76, ../sass/bootstrap/_tooltip.scss */
 .tooltip.bottom .tooltip-arrow {
@@ -7167,21 +7163,21 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: black;
+  border-bottom-color: #000;
 }
 /* line 83, ../sass/bootstrap/_tooltip.scss */
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   left: 5px;
   border-width: 0 5px 5px;
-  border-bottom-color: black;
+  border-bottom-color: #000;
 }
 /* line 89, ../sass/bootstrap/_tooltip.scss */
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   right: 5px;
   border-width: 0 5px 5px;
-  border-bottom-color: black;
+  border-bottom-color: #000;
 }
 
 /* line 6, ../sass/bootstrap/_popovers.scss */
@@ -7194,9 +7190,9 @@ button.close {
   max-width: 276px;
   padding: 1px;
   text-align: left;
-  background-color: white;
+  background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -7237,7 +7233,7 @@ button.close {
   padding: 9px 14px;
 }
 
-/* line 53, ../sass/bootstrap/_popovers.scss */
+/* line 52, ../sass/bootstrap/_popovers.scss */
 .popover > .arrow, .popover > .arrow:after {
   position: absolute;
   display: block;
@@ -7273,7 +7269,7 @@ button.close {
   bottom: 1px;
   margin-left: -10px;
   border-bottom-width: 0;
-  border-top-color: white;
+  border-top-color: #fff;
 }
 /* line 86, ../sass/bootstrap/_popovers.scss */
 .popover.right > .arrow {
@@ -7290,7 +7286,7 @@ button.close {
   left: 1px;
   bottom: -10px;
   border-left-width: 0;
-  border-right-color: white;
+  border-right-color: #fff;
 }
 /* line 101, ../sass/bootstrap/_popovers.scss */
 .popover.bottom > .arrow {
@@ -7307,7 +7303,7 @@ button.close {
   top: 1px;
   margin-left: -10px;
   border-top-width: 0;
-  border-bottom-color: white;
+  border-bottom-color: #fff;
 }
 /* line 117, ../sass/bootstrap/_popovers.scss */
 .popover.left > .arrow {
@@ -7323,7 +7319,7 @@ button.close {
   content: " ";
   right: 1px;
   border-right-width: 0;
-  border-left-color: white;
+  border-left-color: #fff;
   bottom: -10px;
 }
 
@@ -7346,7 +7342,7 @@ button.close {
   -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
-/* line 23, ../sass/bootstrap/_carousel.scss */
+/* line 22, ../sass/bootstrap/_carousel.scss */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
@@ -7354,7 +7350,7 @@ button.close {
   height: auto;
   line-height: 1;
 }
-/* line 31, ../sass/bootstrap/_carousel.scss */
+/* line 29, ../sass/bootstrap/_carousel.scss */
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
@@ -7364,7 +7360,7 @@ button.close {
 .carousel-inner > .active {
   left: 0;
 }
-/* line 38, ../sass/bootstrap/_carousel.scss */
+/* line 37, ../sass/bootstrap/_carousel.scss */
 .carousel-inner > .next,
 .carousel-inner > .prev {
   position: absolute;
@@ -7379,7 +7375,7 @@ button.close {
 .carousel-inner > .prev {
   left: -100%;
 }
-/* line 51, ../sass/bootstrap/_carousel.scss */
+/* line 50, ../sass/bootstrap/_carousel.scss */
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
   left: 0;
@@ -7403,7 +7399,7 @@ button.close {
   opacity: 0.5;
   filter: alpha(opacity=50);
   font-size: 20px;
-  color: white;
+  color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
@@ -7425,15 +7421,15 @@ button.close {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
-/* line 93, ../sass/bootstrap/_carousel.scss */
+/* line 92, ../sass/bootstrap/_carousel.scss */
 .carousel-control:hover, .carousel-control:focus {
   outline: 0;
-  color: white;
+  color: #fff;
   text-decoration: none;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-/* line 104, ../sass/bootstrap/_carousel.scss */
+/* line 101, ../sass/bootstrap/_carousel.scss */
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
@@ -7443,19 +7439,19 @@ button.close {
   z-index: 5;
   display: inline-block;
 }
-/* line 111, ../sass/bootstrap/_carousel.scss */
+/* line 110, ../sass/bootstrap/_carousel.scss */
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
   margin-left: -10px;
 }
-/* line 116, ../sass/bootstrap/_carousel.scss */
+/* line 115, ../sass/bootstrap/_carousel.scss */
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
   right: 50%;
   margin-right: -10px;
 }
-/* line 121, ../sass/bootstrap/_carousel.scss */
+/* line 120, ../sass/bootstrap/_carousel.scss */
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
   width: 20px;
@@ -7491,18 +7487,18 @@ button.close {
   height: 10px;
   margin: 1px;
   text-indent: -999px;
-  border: 1px solid white;
+  border: 1px solid #fff;
   border-radius: 10px;
   cursor: pointer;
   background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 /* line 178, ../sass/bootstrap/_carousel.scss */
 .carousel-indicators .active {
   margin: 0;
   width: 12px;
   height: 12px;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* line 189, ../sass/bootstrap/_carousel.scss */
@@ -7514,7 +7510,7 @@ button.close {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: white;
+  color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
@@ -7524,7 +7520,7 @@ button.close {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 214, ../sass/bootstrap/_carousel.scss */
+  /* line 211, ../sass/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
@@ -7534,12 +7530,12 @@ button.close {
     margin-top: -15px;
     font-size: 30px;
   }
-  /* line 221, ../sass/bootstrap/_carousel.scss */
+  /* line 220, ../sass/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     margin-left: -15px;
   }
-  /* line 225, ../sass/bootstrap/_carousel.scss */
+  /* line 224, ../sass/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
     margin-right: -15px;
@@ -7557,7 +7553,7 @@ button.close {
     bottom: 20px;
   }
 }
-/* line 15, ../sass/bootstrap/mixins/_clearfix.scss */
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
@@ -7622,13 +7618,12 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
-
 /* line 18, ../sass/bootstrap/mixins/_responsive-visibility.scss */
 .visible-xs, .visible-sm, .visible-md, .visible-lg {
   display: none !important;
 }
 
-/* line 41, ../sass/bootstrap/_responsive-utilities.scss */
+/* line 30, ../sass/bootstrap/_responsive-utilities.scss */
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block,
@@ -7660,7 +7655,7 @@ button.close {
     display: table-row !important;
   }
 
-  /* line 13, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  /* line 12, ../sass/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
@@ -7703,7 +7698,7 @@ button.close {
     display: table-row !important;
   }
 
-  /* line 13, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  /* line 12, ../sass/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
@@ -7746,7 +7741,7 @@ button.close {
     display: table-row !important;
   }
 
-  /* line 13, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  /* line 12, ../sass/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
@@ -7789,7 +7784,7 @@ button.close {
     display: table-row !important;
   }
 
-  /* line 13, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  /* line 12, ../sass/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
@@ -7861,7 +7856,7 @@ button.close {
     display: table-row !important;
   }
 
-  /* line 13, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  /* line 12, ../sass/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
@@ -7907,77 +7902,75 @@ button.close {
   }
 }
 /*!
- *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.1.0");
-  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.2.0");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 /* line 14, ../sass/fonts/_font-awesome.scss */
 .fa {
   display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 /* makes the font 33% larger relative to the icon container */
-/* line 24, ../sass/fonts/_font-awesome.scss */
+/* line 23, ../sass/fonts/_font-awesome.scss */
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
 
-/* line 29, ../sass/fonts/_font-awesome.scss */
+/* line 28, ../sass/fonts/_font-awesome.scss */
 .fa-2x {
   font-size: 2em;
 }
 
-/* line 32, ../sass/fonts/_font-awesome.scss */
+/* line 31, ../sass/fonts/_font-awesome.scss */
 .fa-3x {
   font-size: 3em;
 }
 
-/* line 35, ../sass/fonts/_font-awesome.scss */
+/* line 34, ../sass/fonts/_font-awesome.scss */
 .fa-4x {
   font-size: 4em;
 }
 
-/* line 38, ../sass/fonts/_font-awesome.scss */
+/* line 37, ../sass/fonts/_font-awesome.scss */
 .fa-5x {
   font-size: 5em;
 }
 
-/* line 41, ../sass/fonts/_font-awesome.scss */
+/* line 40, ../sass/fonts/_font-awesome.scss */
 .fa-fw {
   width: 1.28571429em;
   text-align: center;
 }
 
-/* line 45, ../sass/fonts/_font-awesome.scss */
+/* line 44, ../sass/fonts/_font-awesome.scss */
 .fa-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
   list-style-type: none;
 }
 
-/* line 50, ../sass/fonts/_font-awesome.scss */
+/* line 49, ../sass/fonts/_font-awesome.scss */
 .fa-ul > li {
   position: relative;
 }
 
-/* line 53, ../sass/fonts/_font-awesome.scss */
+/* line 52, ../sass/fonts/_font-awesome.scss */
 .fa-li {
   position: absolute;
   left: -2.14285714em;
@@ -7986,147 +7979,114 @@ button.close {
   text-align: center;
 }
 
-/* line 60, ../sass/fonts/_font-awesome.scss */
+/* line 59, ../sass/fonts/_font-awesome.scss */
 .fa-li.fa-lg {
   left: -1.85714286em;
 }
 
-/* line 63, ../sass/fonts/_font-awesome.scss */
+/* line 62, ../sass/fonts/_font-awesome.scss */
 .fa-border {
   padding: .2em .25em .15em;
   border: solid 0.08em #eeeeee;
   border-radius: .1em;
 }
 
-/* line 68, ../sass/fonts/_font-awesome.scss */
+/* line 67, ../sass/fonts/_font-awesome.scss */
 .pull-right {
   float: right;
 }
 
-/* line 71, ../sass/fonts/_font-awesome.scss */
+/* line 70, ../sass/fonts/_font-awesome.scss */
 .pull-left {
   float: left;
 }
 
-/* line 74, ../sass/fonts/_font-awesome.scss */
+/* line 73, ../sass/fonts/_font-awesome.scss */
 .fa.pull-left {
   margin-right: .3em;
 }
 
-/* line 77, ../sass/fonts/_font-awesome.scss */
+/* line 76, ../sass/fonts/_font-awesome.scss */
 .fa.pull-right {
   margin-left: .3em;
 }
 
-/* line 80, ../sass/fonts/_font-awesome.scss */
+/* line 79, ../sass/fonts/_font-awesome.scss */
 .fa-spin {
-  -webkit-animation: spin 2s infinite linear;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
 }
 
-@-moz-keyframes spin {
-  /* line 87, ../sass/fonts/_font-awesome.scss */
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-
-  /* line 90, ../sass/fonts/_font-awesome.scss */
-  100% {
-    -moz-transform: rotate(359deg);
-  }
-}
-
-@-webkit-keyframes spin {
-  /* line 95, ../sass/fonts/_font-awesome.scss */
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  /* line 98, ../sass/fonts/_font-awesome.scss */
-  100% {
-    -webkit-transform: rotate(359deg);
-  }
-}
-
-@-o-keyframes spin {
-  /* line 103, ../sass/fonts/_font-awesome.scss */
-  0% {
-    -o-transform: rotate(0deg);
-  }
-
-  /* line 106, ../sass/fonts/_font-awesome.scss */
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-
-@keyframes spin {
-  /* line 111, ../sass/fonts/_font-awesome.scss */
+@-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 115, ../sass/fonts/_font-awesome.scss */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
-
-/* line 120, ../sass/fonts/_font-awesome.scss */
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 103, ../sass/fonts/_font-awesome.scss */
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-/* line 128, ../sass/fonts/_font-awesome.scss */
+/* line 109, ../sass/fonts/_font-awesome.scss */
 .fa-rotate-180 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-/* line 136, ../sass/fonts/_font-awesome.scss */
+/* line 115, ../sass/fonts/_font-awesome.scss */
 .fa-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
-/* line 144, ../sass/fonts/_font-awesome.scss */
+/* line 121, ../sass/fonts/_font-awesome.scss */
 .fa-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
   -webkit-transform: scale(-1, 1);
-  -moz-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
-/* line 152, ../sass/fonts/_font-awesome.scss */
+/* line 127, ../sass/fonts/_font-awesome.scss */
 .fa-flip-vertical {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
-  -moz-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
-  -o-transform: scale(1, -1);
   transform: scale(1, -1);
 }
 
-/* line 160, ../sass/fonts/_font-awesome.scss */
+/* line 133, ../sass/fonts/_font-awesome.scss */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 140, ../sass/fonts/_font-awesome.scss */
 .fa-stack {
   position: relative;
   display: inline-block;
@@ -8136,7 +8096,7 @@ button.close {
   vertical-align: middle;
 }
 
-/* line 169, ../sass/fonts/_font-awesome.scss */
+/* line 148, ../sass/fonts/_font-awesome.scss */
 .fa-stack-1x,
 .fa-stack-2x {
   position: absolute;
@@ -8145,1600 +8105,1603 @@ button.close {
   text-align: center;
 }
 
-/* line 175, ../sass/fonts/_font-awesome.scss */
+/* line 155, ../sass/fonts/_font-awesome.scss */
 .fa-stack-1x {
   line-height: inherit;
 }
 
-/* line 178, ../sass/fonts/_font-awesome.scss */
+/* line 158, ../sass/fonts/_font-awesome.scss */
 .fa-stack-2x {
   font-size: 2em;
 }
 
-/* line 181, ../sass/fonts/_font-awesome.scss */
+/* line 161, ../sass/fonts/_font-awesome.scss */
 .fa-inverse {
   color: #ffffff;
 }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
-/* line 186, ../sass/fonts/_font-awesome.scss */
+/* line 166, ../sass/fonts/_font-awesome.scss */
 .fa-glass:before {
   content: "\f000";
 }
 
-/* line 189, ../sass/fonts/_font-awesome.scss */
+/* line 169, ../sass/fonts/_font-awesome.scss */
 .fa-music:before {
   content: "\f001";
 }
 
-/* line 192, ../sass/fonts/_font-awesome.scss */
+/* line 172, ../sass/fonts/_font-awesome.scss */
 .fa-search:before {
   content: "\f002";
 }
 
-/* line 195, ../sass/fonts/_font-awesome.scss */
+/* line 175, ../sass/fonts/_font-awesome.scss */
 .fa-envelope-o:before {
   content: "\f003";
 }
 
-/* line 198, ../sass/fonts/_font-awesome.scss */
+/* line 178, ../sass/fonts/_font-awesome.scss */
 .fa-heart:before {
   content: "\f004";
 }
 
-/* line 201, ../sass/fonts/_font-awesome.scss */
+/* line 181, ../sass/fonts/_font-awesome.scss */
 .fa-star:before {
   content: "\f005";
 }
 
-/* line 204, ../sass/fonts/_font-awesome.scss */
+/* line 184, ../sass/fonts/_font-awesome.scss */
 .fa-star-o:before {
   content: "\f006";
 }
 
-/* line 207, ../sass/fonts/_font-awesome.scss */
+/* line 187, ../sass/fonts/_font-awesome.scss */
 .fa-user:before {
   content: "\f007";
 }
 
-/* line 210, ../sass/fonts/_font-awesome.scss */
+/* line 190, ../sass/fonts/_font-awesome.scss */
 .fa-film:before {
   content: "\f008";
 }
 
-/* line 213, ../sass/fonts/_font-awesome.scss */
+/* line 193, ../sass/fonts/_font-awesome.scss */
 .fa-th-large:before {
   content: "\f009";
 }
 
-/* line 216, ../sass/fonts/_font-awesome.scss */
+/* line 196, ../sass/fonts/_font-awesome.scss */
 .fa-th:before {
   content: "\f00a";
 }
 
-/* line 219, ../sass/fonts/_font-awesome.scss */
+/* line 199, ../sass/fonts/_font-awesome.scss */
 .fa-th-list:before {
   content: "\f00b";
 }
 
-/* line 222, ../sass/fonts/_font-awesome.scss */
+/* line 202, ../sass/fonts/_font-awesome.scss */
 .fa-check:before {
   content: "\f00c";
 }
 
-/* line 225, ../sass/fonts/_font-awesome.scss */
+/* line 205, ../sass/fonts/_font-awesome.scss */
+.fa-remove:before,
+.fa-close:before,
 .fa-times:before {
   content: "\f00d";
 }
 
-/* line 228, ../sass/fonts/_font-awesome.scss */
+/* line 210, ../sass/fonts/_font-awesome.scss */
 .fa-search-plus:before {
   content: "\f00e";
 }
 
-/* line 231, ../sass/fonts/_font-awesome.scss */
+/* line 213, ../sass/fonts/_font-awesome.scss */
 .fa-search-minus:before {
   content: "\f010";
 }
 
-/* line 234, ../sass/fonts/_font-awesome.scss */
+/* line 216, ../sass/fonts/_font-awesome.scss */
 .fa-power-off:before {
   content: "\f011";
 }
 
-/* line 237, ../sass/fonts/_font-awesome.scss */
+/* line 219, ../sass/fonts/_font-awesome.scss */
 .fa-signal:before {
   content: "\f012";
 }
 
-/* line 241, ../sass/fonts/_font-awesome.scss */
+/* line 222, ../sass/fonts/_font-awesome.scss */
 .fa-gear:before,
 .fa-cog:before {
   content: "\f013";
 }
 
-/* line 244, ../sass/fonts/_font-awesome.scss */
+/* line 226, ../sass/fonts/_font-awesome.scss */
 .fa-trash-o:before {
   content: "\f014";
 }
 
-/* line 247, ../sass/fonts/_font-awesome.scss */
+/* line 229, ../sass/fonts/_font-awesome.scss */
 .fa-home:before {
   content: "\f015";
 }
 
-/* line 250, ../sass/fonts/_font-awesome.scss */
+/* line 232, ../sass/fonts/_font-awesome.scss */
 .fa-file-o:before {
   content: "\f016";
 }
 
-/* line 253, ../sass/fonts/_font-awesome.scss */
+/* line 235, ../sass/fonts/_font-awesome.scss */
 .fa-clock-o:before {
   content: "\f017";
 }
 
-/* line 256, ../sass/fonts/_font-awesome.scss */
+/* line 238, ../sass/fonts/_font-awesome.scss */
 .fa-road:before {
   content: "\f018";
 }
 
-/* line 259, ../sass/fonts/_font-awesome.scss */
+/* line 241, ../sass/fonts/_font-awesome.scss */
 .fa-download:before {
   content: "\f019";
 }
 
-/* line 262, ../sass/fonts/_font-awesome.scss */
+/* line 244, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-circle-o-down:before {
   content: "\f01a";
 }
 
-/* line 265, ../sass/fonts/_font-awesome.scss */
+/* line 247, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-circle-o-up:before {
   content: "\f01b";
 }
 
-/* line 268, ../sass/fonts/_font-awesome.scss */
+/* line 250, ../sass/fonts/_font-awesome.scss */
 .fa-inbox:before {
   content: "\f01c";
 }
 
-/* line 271, ../sass/fonts/_font-awesome.scss */
+/* line 253, ../sass/fonts/_font-awesome.scss */
 .fa-play-circle-o:before {
   content: "\f01d";
 }
 
-/* line 275, ../sass/fonts/_font-awesome.scss */
+/* line 256, ../sass/fonts/_font-awesome.scss */
 .fa-rotate-right:before,
 .fa-repeat:before {
   content: "\f01e";
 }
 
-/* line 278, ../sass/fonts/_font-awesome.scss */
+/* line 260, ../sass/fonts/_font-awesome.scss */
 .fa-refresh:before {
   content: "\f021";
 }
 
-/* line 281, ../sass/fonts/_font-awesome.scss */
+/* line 263, ../sass/fonts/_font-awesome.scss */
 .fa-list-alt:before {
   content: "\f022";
 }
 
-/* line 284, ../sass/fonts/_font-awesome.scss */
+/* line 266, ../sass/fonts/_font-awesome.scss */
 .fa-lock:before {
   content: "\f023";
 }
 
-/* line 287, ../sass/fonts/_font-awesome.scss */
+/* line 269, ../sass/fonts/_font-awesome.scss */
 .fa-flag:before {
   content: "\f024";
 }
 
-/* line 290, ../sass/fonts/_font-awesome.scss */
+/* line 272, ../sass/fonts/_font-awesome.scss */
 .fa-headphones:before {
   content: "\f025";
 }
 
-/* line 293, ../sass/fonts/_font-awesome.scss */
+/* line 275, ../sass/fonts/_font-awesome.scss */
 .fa-volume-off:before {
   content: "\f026";
 }
 
-/* line 296, ../sass/fonts/_font-awesome.scss */
+/* line 278, ../sass/fonts/_font-awesome.scss */
 .fa-volume-down:before {
   content: "\f027";
 }
 
-/* line 299, ../sass/fonts/_font-awesome.scss */
+/* line 281, ../sass/fonts/_font-awesome.scss */
 .fa-volume-up:before {
   content: "\f028";
 }
 
-/* line 302, ../sass/fonts/_font-awesome.scss */
+/* line 284, ../sass/fonts/_font-awesome.scss */
 .fa-qrcode:before {
   content: "\f029";
 }
 
-/* line 305, ../sass/fonts/_font-awesome.scss */
+/* line 287, ../sass/fonts/_font-awesome.scss */
 .fa-barcode:before {
   content: "\f02a";
 }
 
-/* line 308, ../sass/fonts/_font-awesome.scss */
+/* line 290, ../sass/fonts/_font-awesome.scss */
 .fa-tag:before {
   content: "\f02b";
 }
 
-/* line 311, ../sass/fonts/_font-awesome.scss */
+/* line 293, ../sass/fonts/_font-awesome.scss */
 .fa-tags:before {
   content: "\f02c";
 }
 
-/* line 314, ../sass/fonts/_font-awesome.scss */
+/* line 296, ../sass/fonts/_font-awesome.scss */
 .fa-book:before {
   content: "\f02d";
 }
 
-/* line 317, ../sass/fonts/_font-awesome.scss */
+/* line 299, ../sass/fonts/_font-awesome.scss */
 .fa-bookmark:before {
   content: "\f02e";
 }
 
-/* line 320, ../sass/fonts/_font-awesome.scss */
+/* line 302, ../sass/fonts/_font-awesome.scss */
 .fa-print:before {
   content: "\f02f";
 }
 
-/* line 323, ../sass/fonts/_font-awesome.scss */
+/* line 305, ../sass/fonts/_font-awesome.scss */
 .fa-camera:before {
   content: "\f030";
 }
 
-/* line 326, ../sass/fonts/_font-awesome.scss */
+/* line 308, ../sass/fonts/_font-awesome.scss */
 .fa-font:before {
   content: "\f031";
 }
 
-/* line 329, ../sass/fonts/_font-awesome.scss */
+/* line 311, ../sass/fonts/_font-awesome.scss */
 .fa-bold:before {
   content: "\f032";
 }
 
-/* line 332, ../sass/fonts/_font-awesome.scss */
+/* line 314, ../sass/fonts/_font-awesome.scss */
 .fa-italic:before {
   content: "\f033";
 }
 
-/* line 335, ../sass/fonts/_font-awesome.scss */
+/* line 317, ../sass/fonts/_font-awesome.scss */
 .fa-text-height:before {
   content: "\f034";
 }
 
-/* line 338, ../sass/fonts/_font-awesome.scss */
+/* line 320, ../sass/fonts/_font-awesome.scss */
 .fa-text-width:before {
   content: "\f035";
 }
 
-/* line 341, ../sass/fonts/_font-awesome.scss */
+/* line 323, ../sass/fonts/_font-awesome.scss */
 .fa-align-left:before {
   content: "\f036";
 }
 
-/* line 344, ../sass/fonts/_font-awesome.scss */
+/* line 326, ../sass/fonts/_font-awesome.scss */
 .fa-align-center:before {
   content: "\f037";
 }
 
-/* line 347, ../sass/fonts/_font-awesome.scss */
+/* line 329, ../sass/fonts/_font-awesome.scss */
 .fa-align-right:before {
   content: "\f038";
 }
 
-/* line 350, ../sass/fonts/_font-awesome.scss */
+/* line 332, ../sass/fonts/_font-awesome.scss */
 .fa-align-justify:before {
   content: "\f039";
 }
 
-/* line 353, ../sass/fonts/_font-awesome.scss */
+/* line 335, ../sass/fonts/_font-awesome.scss */
 .fa-list:before {
   content: "\f03a";
 }
 
-/* line 357, ../sass/fonts/_font-awesome.scss */
+/* line 338, ../sass/fonts/_font-awesome.scss */
 .fa-dedent:before,
 .fa-outdent:before {
   content: "\f03b";
 }
 
-/* line 360, ../sass/fonts/_font-awesome.scss */
+/* line 342, ../sass/fonts/_font-awesome.scss */
 .fa-indent:before {
   content: "\f03c";
 }
 
-/* line 363, ../sass/fonts/_font-awesome.scss */
+/* line 345, ../sass/fonts/_font-awesome.scss */
 .fa-video-camera:before {
   content: "\f03d";
 }
 
-/* line 368, ../sass/fonts/_font-awesome.scss */
+/* line 348, ../sass/fonts/_font-awesome.scss */
 .fa-photo:before,
 .fa-image:before,
 .fa-picture-o:before {
   content: "\f03e";
 }
 
-/* line 371, ../sass/fonts/_font-awesome.scss */
+/* line 353, ../sass/fonts/_font-awesome.scss */
 .fa-pencil:before {
   content: "\f040";
 }
 
-/* line 374, ../sass/fonts/_font-awesome.scss */
+/* line 356, ../sass/fonts/_font-awesome.scss */
 .fa-map-marker:before {
   content: "\f041";
 }
 
-/* line 377, ../sass/fonts/_font-awesome.scss */
+/* line 359, ../sass/fonts/_font-awesome.scss */
 .fa-adjust:before {
   content: "\f042";
 }
 
-/* line 380, ../sass/fonts/_font-awesome.scss */
+/* line 362, ../sass/fonts/_font-awesome.scss */
 .fa-tint:before {
   content: "\f043";
 }
 
-/* line 384, ../sass/fonts/_font-awesome.scss */
+/* line 365, ../sass/fonts/_font-awesome.scss */
 .fa-edit:before,
 .fa-pencil-square-o:before {
   content: "\f044";
 }
 
-/* line 387, ../sass/fonts/_font-awesome.scss */
+/* line 369, ../sass/fonts/_font-awesome.scss */
 .fa-share-square-o:before {
   content: "\f045";
 }
 
-/* line 390, ../sass/fonts/_font-awesome.scss */
+/* line 372, ../sass/fonts/_font-awesome.scss */
 .fa-check-square-o:before {
   content: "\f046";
 }
 
-/* line 393, ../sass/fonts/_font-awesome.scss */
+/* line 375, ../sass/fonts/_font-awesome.scss */
 .fa-arrows:before {
   content: "\f047";
 }
 
-/* line 396, ../sass/fonts/_font-awesome.scss */
+/* line 378, ../sass/fonts/_font-awesome.scss */
 .fa-step-backward:before {
   content: "\f048";
 }
 
-/* line 399, ../sass/fonts/_font-awesome.scss */
+/* line 381, ../sass/fonts/_font-awesome.scss */
 .fa-fast-backward:before {
   content: "\f049";
 }
 
-/* line 402, ../sass/fonts/_font-awesome.scss */
+/* line 384, ../sass/fonts/_font-awesome.scss */
 .fa-backward:before {
   content: "\f04a";
 }
 
-/* line 405, ../sass/fonts/_font-awesome.scss */
+/* line 387, ../sass/fonts/_font-awesome.scss */
 .fa-play:before {
   content: "\f04b";
 }
 
-/* line 408, ../sass/fonts/_font-awesome.scss */
+/* line 390, ../sass/fonts/_font-awesome.scss */
 .fa-pause:before {
   content: "\f04c";
 }
 
-/* line 411, ../sass/fonts/_font-awesome.scss */
+/* line 393, ../sass/fonts/_font-awesome.scss */
 .fa-stop:before {
   content: "\f04d";
 }
 
-/* line 414, ../sass/fonts/_font-awesome.scss */
+/* line 396, ../sass/fonts/_font-awesome.scss */
 .fa-forward:before {
   content: "\f04e";
 }
 
-/* line 417, ../sass/fonts/_font-awesome.scss */
+/* line 399, ../sass/fonts/_font-awesome.scss */
 .fa-fast-forward:before {
   content: "\f050";
 }
 
-/* line 420, ../sass/fonts/_font-awesome.scss */
+/* line 402, ../sass/fonts/_font-awesome.scss */
 .fa-step-forward:before {
   content: "\f051";
 }
 
-/* line 423, ../sass/fonts/_font-awesome.scss */
+/* line 405, ../sass/fonts/_font-awesome.scss */
 .fa-eject:before {
   content: "\f052";
 }
 
-/* line 426, ../sass/fonts/_font-awesome.scss */
+/* line 408, ../sass/fonts/_font-awesome.scss */
 .fa-chevron-left:before {
   content: "\f053";
 }
 
-/* line 429, ../sass/fonts/_font-awesome.scss */
+/* line 411, ../sass/fonts/_font-awesome.scss */
 .fa-chevron-right:before {
   content: "\f054";
 }
 
-/* line 432, ../sass/fonts/_font-awesome.scss */
+/* line 414, ../sass/fonts/_font-awesome.scss */
 .fa-plus-circle:before {
   content: "\f055";
 }
 
-/* line 435, ../sass/fonts/_font-awesome.scss */
+/* line 417, ../sass/fonts/_font-awesome.scss */
 .fa-minus-circle:before {
   content: "\f056";
 }
 
-/* line 438, ../sass/fonts/_font-awesome.scss */
+/* line 420, ../sass/fonts/_font-awesome.scss */
 .fa-times-circle:before {
   content: "\f057";
 }
 
-/* line 441, ../sass/fonts/_font-awesome.scss */
+/* line 423, ../sass/fonts/_font-awesome.scss */
 .fa-check-circle:before {
   content: "\f058";
 }
 
-/* line 444, ../sass/fonts/_font-awesome.scss */
+/* line 426, ../sass/fonts/_font-awesome.scss */
 .fa-question-circle:before {
   content: "\f059";
 }
 
-/* line 447, ../sass/fonts/_font-awesome.scss */
+/* line 429, ../sass/fonts/_font-awesome.scss */
 .fa-info-circle:before {
   content: "\f05a";
 }
 
-/* line 450, ../sass/fonts/_font-awesome.scss */
+/* line 432, ../sass/fonts/_font-awesome.scss */
 .fa-crosshairs:before {
   content: "\f05b";
 }
 
-/* line 453, ../sass/fonts/_font-awesome.scss */
+/* line 435, ../sass/fonts/_font-awesome.scss */
 .fa-times-circle-o:before {
   content: "\f05c";
 }
 
-/* line 456, ../sass/fonts/_font-awesome.scss */
+/* line 438, ../sass/fonts/_font-awesome.scss */
 .fa-check-circle-o:before {
   content: "\f05d";
 }
 
-/* line 459, ../sass/fonts/_font-awesome.scss */
+/* line 441, ../sass/fonts/_font-awesome.scss */
 .fa-ban:before {
   content: "\f05e";
 }
 
-/* line 462, ../sass/fonts/_font-awesome.scss */
+/* line 444, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-left:before {
   content: "\f060";
 }
 
-/* line 465, ../sass/fonts/_font-awesome.scss */
+/* line 447, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-right:before {
   content: "\f061";
 }
 
-/* line 468, ../sass/fonts/_font-awesome.scss */
+/* line 450, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-up:before {
   content: "\f062";
 }
 
-/* line 471, ../sass/fonts/_font-awesome.scss */
+/* line 453, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-down:before {
   content: "\f063";
 }
 
-/* line 475, ../sass/fonts/_font-awesome.scss */
+/* line 456, ../sass/fonts/_font-awesome.scss */
 .fa-mail-forward:before,
 .fa-share:before {
   content: "\f064";
 }
 
-/* line 478, ../sass/fonts/_font-awesome.scss */
+/* line 460, ../sass/fonts/_font-awesome.scss */
 .fa-expand:before {
   content: "\f065";
 }
 
-/* line 481, ../sass/fonts/_font-awesome.scss */
+/* line 463, ../sass/fonts/_font-awesome.scss */
 .fa-compress:before {
   content: "\f066";
 }
 
-/* line 484, ../sass/fonts/_font-awesome.scss */
+/* line 466, ../sass/fonts/_font-awesome.scss */
 .fa-plus:before {
   content: "\f067";
 }
 
-/* line 487, ../sass/fonts/_font-awesome.scss */
+/* line 469, ../sass/fonts/_font-awesome.scss */
 .fa-minus:before {
   content: "\f068";
 }
 
-/* line 490, ../sass/fonts/_font-awesome.scss */
+/* line 472, ../sass/fonts/_font-awesome.scss */
 .fa-asterisk:before {
   content: "\f069";
 }
 
-/* line 493, ../sass/fonts/_font-awesome.scss */
+/* line 475, ../sass/fonts/_font-awesome.scss */
 .fa-exclamation-circle:before {
   content: "\f06a";
 }
 
-/* line 496, ../sass/fonts/_font-awesome.scss */
+/* line 478, ../sass/fonts/_font-awesome.scss */
 .fa-gift:before {
   content: "\f06b";
 }
 
-/* line 499, ../sass/fonts/_font-awesome.scss */
+/* line 481, ../sass/fonts/_font-awesome.scss */
 .fa-leaf:before {
   content: "\f06c";
 }
 
-/* line 502, ../sass/fonts/_font-awesome.scss */
+/* line 484, ../sass/fonts/_font-awesome.scss */
 .fa-fire:before {
   content: "\f06d";
 }
 
-/* line 505, ../sass/fonts/_font-awesome.scss */
+/* line 487, ../sass/fonts/_font-awesome.scss */
 .fa-eye:before {
   content: "\f06e";
 }
 
-/* line 508, ../sass/fonts/_font-awesome.scss */
+/* line 490, ../sass/fonts/_font-awesome.scss */
 .fa-eye-slash:before {
   content: "\f070";
 }
 
-/* line 512, ../sass/fonts/_font-awesome.scss */
+/* line 493, ../sass/fonts/_font-awesome.scss */
 .fa-warning:before,
 .fa-exclamation-triangle:before {
   content: "\f071";
 }
 
-/* line 515, ../sass/fonts/_font-awesome.scss */
+/* line 497, ../sass/fonts/_font-awesome.scss */
 .fa-plane:before {
   content: "\f072";
 }
 
-/* line 518, ../sass/fonts/_font-awesome.scss */
+/* line 500, ../sass/fonts/_font-awesome.scss */
 .fa-calendar:before {
   content: "\f073";
 }
 
-/* line 521, ../sass/fonts/_font-awesome.scss */
+/* line 503, ../sass/fonts/_font-awesome.scss */
 .fa-random:before {
   content: "\f074";
 }
 
-/* line 524, ../sass/fonts/_font-awesome.scss */
+/* line 506, ../sass/fonts/_font-awesome.scss */
 .fa-comment:before {
   content: "\f075";
 }
 
-/* line 527, ../sass/fonts/_font-awesome.scss */
+/* line 509, ../sass/fonts/_font-awesome.scss */
 .fa-magnet:before {
   content: "\f076";
 }
 
-/* line 530, ../sass/fonts/_font-awesome.scss */
+/* line 512, ../sass/fonts/_font-awesome.scss */
 .fa-chevron-up:before {
   content: "\f077";
 }
 
-/* line 533, ../sass/fonts/_font-awesome.scss */
+/* line 515, ../sass/fonts/_font-awesome.scss */
 .fa-chevron-down:before {
   content: "\f078";
 }
 
-/* line 536, ../sass/fonts/_font-awesome.scss */
+/* line 518, ../sass/fonts/_font-awesome.scss */
 .fa-retweet:before {
   content: "\f079";
 }
 
-/* line 539, ../sass/fonts/_font-awesome.scss */
+/* line 521, ../sass/fonts/_font-awesome.scss */
 .fa-shopping-cart:before {
   content: "\f07a";
 }
 
-/* line 542, ../sass/fonts/_font-awesome.scss */
+/* line 524, ../sass/fonts/_font-awesome.scss */
 .fa-folder:before {
   content: "\f07b";
 }
 
-/* line 545, ../sass/fonts/_font-awesome.scss */
+/* line 527, ../sass/fonts/_font-awesome.scss */
 .fa-folder-open:before {
   content: "\f07c";
 }
 
-/* line 548, ../sass/fonts/_font-awesome.scss */
+/* line 530, ../sass/fonts/_font-awesome.scss */
 .fa-arrows-v:before {
   content: "\f07d";
 }
 
-/* line 551, ../sass/fonts/_font-awesome.scss */
+/* line 533, ../sass/fonts/_font-awesome.scss */
 .fa-arrows-h:before {
   content: "\f07e";
 }
 
-/* line 554, ../sass/fonts/_font-awesome.scss */
-.fa-bar-chart-o:before {
+/* line 536, ../sass/fonts/_font-awesome.scss */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
   content: "\f080";
 }
 
-/* line 557, ../sass/fonts/_font-awesome.scss */
+/* line 540, ../sass/fonts/_font-awesome.scss */
 .fa-twitter-square:before {
   content: "\f081";
 }
 
-/* line 560, ../sass/fonts/_font-awesome.scss */
+/* line 543, ../sass/fonts/_font-awesome.scss */
 .fa-facebook-square:before {
   content: "\f082";
 }
 
-/* line 563, ../sass/fonts/_font-awesome.scss */
+/* line 546, ../sass/fonts/_font-awesome.scss */
 .fa-camera-retro:before {
   content: "\f083";
 }
 
-/* line 566, ../sass/fonts/_font-awesome.scss */
+/* line 549, ../sass/fonts/_font-awesome.scss */
 .fa-key:before {
   content: "\f084";
 }
 
-/* line 570, ../sass/fonts/_font-awesome.scss */
+/* line 552, ../sass/fonts/_font-awesome.scss */
 .fa-gears:before,
 .fa-cogs:before {
   content: "\f085";
 }
 
-/* line 573, ../sass/fonts/_font-awesome.scss */
+/* line 556, ../sass/fonts/_font-awesome.scss */
 .fa-comments:before {
   content: "\f086";
 }
 
-/* line 576, ../sass/fonts/_font-awesome.scss */
+/* line 559, ../sass/fonts/_font-awesome.scss */
 .fa-thumbs-o-up:before {
   content: "\f087";
 }
 
-/* line 579, ../sass/fonts/_font-awesome.scss */
+/* line 562, ../sass/fonts/_font-awesome.scss */
 .fa-thumbs-o-down:before {
   content: "\f088";
 }
 
-/* line 582, ../sass/fonts/_font-awesome.scss */
+/* line 565, ../sass/fonts/_font-awesome.scss */
 .fa-star-half:before {
   content: "\f089";
 }
 
-/* line 585, ../sass/fonts/_font-awesome.scss */
+/* line 568, ../sass/fonts/_font-awesome.scss */
 .fa-heart-o:before {
   content: "\f08a";
 }
 
-/* line 588, ../sass/fonts/_font-awesome.scss */
+/* line 571, ../sass/fonts/_font-awesome.scss */
 .fa-sign-out:before {
   content: "\f08b";
 }
 
-/* line 591, ../sass/fonts/_font-awesome.scss */
+/* line 574, ../sass/fonts/_font-awesome.scss */
 .fa-linkedin-square:before {
   content: "\f08c";
 }
 
-/* line 594, ../sass/fonts/_font-awesome.scss */
+/* line 577, ../sass/fonts/_font-awesome.scss */
 .fa-thumb-tack:before {
   content: "\f08d";
 }
 
-/* line 597, ../sass/fonts/_font-awesome.scss */
+/* line 580, ../sass/fonts/_font-awesome.scss */
 .fa-external-link:before {
   content: "\f08e";
 }
 
-/* line 600, ../sass/fonts/_font-awesome.scss */
+/* line 583, ../sass/fonts/_font-awesome.scss */
 .fa-sign-in:before {
   content: "\f090";
 }
 
-/* line 603, ../sass/fonts/_font-awesome.scss */
+/* line 586, ../sass/fonts/_font-awesome.scss */
 .fa-trophy:before {
   content: "\f091";
 }
 
-/* line 606, ../sass/fonts/_font-awesome.scss */
+/* line 589, ../sass/fonts/_font-awesome.scss */
 .fa-github-square:before {
   content: "\f092";
 }
 
-/* line 609, ../sass/fonts/_font-awesome.scss */
+/* line 592, ../sass/fonts/_font-awesome.scss */
 .fa-upload:before {
   content: "\f093";
 }
 
-/* line 612, ../sass/fonts/_font-awesome.scss */
+/* line 595, ../sass/fonts/_font-awesome.scss */
 .fa-lemon-o:before {
   content: "\f094";
 }
 
-/* line 615, ../sass/fonts/_font-awesome.scss */
+/* line 598, ../sass/fonts/_font-awesome.scss */
 .fa-phone:before {
   content: "\f095";
 }
 
-/* line 618, ../sass/fonts/_font-awesome.scss */
+/* line 601, ../sass/fonts/_font-awesome.scss */
 .fa-square-o:before {
   content: "\f096";
 }
 
-/* line 621, ../sass/fonts/_font-awesome.scss */
+/* line 604, ../sass/fonts/_font-awesome.scss */
 .fa-bookmark-o:before {
   content: "\f097";
 }
 
-/* line 624, ../sass/fonts/_font-awesome.scss */
+/* line 607, ../sass/fonts/_font-awesome.scss */
 .fa-phone-square:before {
   content: "\f098";
 }
 
-/* line 627, ../sass/fonts/_font-awesome.scss */
+/* line 610, ../sass/fonts/_font-awesome.scss */
 .fa-twitter:before {
   content: "\f099";
 }
 
-/* line 630, ../sass/fonts/_font-awesome.scss */
+/* line 613, ../sass/fonts/_font-awesome.scss */
 .fa-facebook:before {
   content: "\f09a";
 }
 
-/* line 633, ../sass/fonts/_font-awesome.scss */
+/* line 616, ../sass/fonts/_font-awesome.scss */
 .fa-github:before {
   content: "\f09b";
 }
 
-/* line 636, ../sass/fonts/_font-awesome.scss */
+/* line 619, ../sass/fonts/_font-awesome.scss */
 .fa-unlock:before {
   content: "\f09c";
 }
 
-/* line 639, ../sass/fonts/_font-awesome.scss */
+/* line 622, ../sass/fonts/_font-awesome.scss */
 .fa-credit-card:before {
   content: "\f09d";
 }
 
-/* line 642, ../sass/fonts/_font-awesome.scss */
+/* line 625, ../sass/fonts/_font-awesome.scss */
 .fa-rss:before {
   content: "\f09e";
 }
 
-/* line 645, ../sass/fonts/_font-awesome.scss */
+/* line 628, ../sass/fonts/_font-awesome.scss */
 .fa-hdd-o:before {
   content: "\f0a0";
 }
 
-/* line 648, ../sass/fonts/_font-awesome.scss */
+/* line 631, ../sass/fonts/_font-awesome.scss */
 .fa-bullhorn:before {
   content: "\f0a1";
 }
 
-/* line 651, ../sass/fonts/_font-awesome.scss */
+/* line 634, ../sass/fonts/_font-awesome.scss */
 .fa-bell:before {
   content: "\f0f3";
 }
 
-/* line 654, ../sass/fonts/_font-awesome.scss */
+/* line 637, ../sass/fonts/_font-awesome.scss */
 .fa-certificate:before {
   content: "\f0a3";
 }
 
-/* line 657, ../sass/fonts/_font-awesome.scss */
+/* line 640, ../sass/fonts/_font-awesome.scss */
 .fa-hand-o-right:before {
   content: "\f0a4";
 }
 
-/* line 660, ../sass/fonts/_font-awesome.scss */
+/* line 643, ../sass/fonts/_font-awesome.scss */
 .fa-hand-o-left:before {
   content: "\f0a5";
 }
 
-/* line 663, ../sass/fonts/_font-awesome.scss */
+/* line 646, ../sass/fonts/_font-awesome.scss */
 .fa-hand-o-up:before {
   content: "\f0a6";
 }
 
-/* line 666, ../sass/fonts/_font-awesome.scss */
+/* line 649, ../sass/fonts/_font-awesome.scss */
 .fa-hand-o-down:before {
   content: "\f0a7";
 }
 
-/* line 669, ../sass/fonts/_font-awesome.scss */
+/* line 652, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-circle-left:before {
   content: "\f0a8";
 }
 
-/* line 672, ../sass/fonts/_font-awesome.scss */
+/* line 655, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-circle-right:before {
   content: "\f0a9";
 }
 
-/* line 675, ../sass/fonts/_font-awesome.scss */
+/* line 658, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-circle-up:before {
   content: "\f0aa";
 }
 
-/* line 678, ../sass/fonts/_font-awesome.scss */
+/* line 661, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-circle-down:before {
   content: "\f0ab";
 }
 
-/* line 681, ../sass/fonts/_font-awesome.scss */
+/* line 664, ../sass/fonts/_font-awesome.scss */
 .fa-globe:before {
   content: "\f0ac";
 }
 
-/* line 684, ../sass/fonts/_font-awesome.scss */
+/* line 667, ../sass/fonts/_font-awesome.scss */
 .fa-wrench:before {
   content: "\f0ad";
 }
 
-/* line 687, ../sass/fonts/_font-awesome.scss */
+/* line 670, ../sass/fonts/_font-awesome.scss */
 .fa-tasks:before {
   content: "\f0ae";
 }
 
-/* line 690, ../sass/fonts/_font-awesome.scss */
+/* line 673, ../sass/fonts/_font-awesome.scss */
 .fa-filter:before {
   content: "\f0b0";
 }
 
-/* line 693, ../sass/fonts/_font-awesome.scss */
+/* line 676, ../sass/fonts/_font-awesome.scss */
 .fa-briefcase:before {
   content: "\f0b1";
 }
 
-/* line 696, ../sass/fonts/_font-awesome.scss */
+/* line 679, ../sass/fonts/_font-awesome.scss */
 .fa-arrows-alt:before {
   content: "\f0b2";
 }
 
-/* line 700, ../sass/fonts/_font-awesome.scss */
+/* line 682, ../sass/fonts/_font-awesome.scss */
 .fa-group:before,
 .fa-users:before {
   content: "\f0c0";
 }
 
-/* line 704, ../sass/fonts/_font-awesome.scss */
+/* line 686, ../sass/fonts/_font-awesome.scss */
 .fa-chain:before,
 .fa-link:before {
   content: "\f0c1";
 }
 
-/* line 707, ../sass/fonts/_font-awesome.scss */
+/* line 690, ../sass/fonts/_font-awesome.scss */
 .fa-cloud:before {
   content: "\f0c2";
 }
 
-/* line 710, ../sass/fonts/_font-awesome.scss */
+/* line 693, ../sass/fonts/_font-awesome.scss */
 .fa-flask:before {
   content: "\f0c3";
 }
 
-/* line 714, ../sass/fonts/_font-awesome.scss */
+/* line 696, ../sass/fonts/_font-awesome.scss */
 .fa-cut:before,
 .fa-scissors:before {
   content: "\f0c4";
 }
 
-/* line 718, ../sass/fonts/_font-awesome.scss */
+/* line 700, ../sass/fonts/_font-awesome.scss */
 .fa-copy:before,
 .fa-files-o:before {
   content: "\f0c5";
 }
 
-/* line 721, ../sass/fonts/_font-awesome.scss */
+/* line 704, ../sass/fonts/_font-awesome.scss */
 .fa-paperclip:before {
   content: "\f0c6";
 }
 
-/* line 725, ../sass/fonts/_font-awesome.scss */
+/* line 707, ../sass/fonts/_font-awesome.scss */
 .fa-save:before,
 .fa-floppy-o:before {
   content: "\f0c7";
 }
 
-/* line 728, ../sass/fonts/_font-awesome.scss */
+/* line 711, ../sass/fonts/_font-awesome.scss */
 .fa-square:before {
   content: "\f0c8";
 }
 
-/* line 733, ../sass/fonts/_font-awesome.scss */
+/* line 714, ../sass/fonts/_font-awesome.scss */
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
   content: "\f0c9";
 }
 
-/* line 736, ../sass/fonts/_font-awesome.scss */
+/* line 719, ../sass/fonts/_font-awesome.scss */
 .fa-list-ul:before {
   content: "\f0ca";
 }
 
-/* line 739, ../sass/fonts/_font-awesome.scss */
+/* line 722, ../sass/fonts/_font-awesome.scss */
 .fa-list-ol:before {
   content: "\f0cb";
 }
 
-/* line 742, ../sass/fonts/_font-awesome.scss */
+/* line 725, ../sass/fonts/_font-awesome.scss */
 .fa-strikethrough:before {
   content: "\f0cc";
 }
 
-/* line 745, ../sass/fonts/_font-awesome.scss */
+/* line 728, ../sass/fonts/_font-awesome.scss */
 .fa-underline:before {
   content: "\f0cd";
 }
 
-/* line 748, ../sass/fonts/_font-awesome.scss */
+/* line 731, ../sass/fonts/_font-awesome.scss */
 .fa-table:before {
   content: "\f0ce";
 }
 
-/* line 751, ../sass/fonts/_font-awesome.scss */
+/* line 734, ../sass/fonts/_font-awesome.scss */
 .fa-magic:before {
   content: "\f0d0";
 }
 
-/* line 754, ../sass/fonts/_font-awesome.scss */
+/* line 737, ../sass/fonts/_font-awesome.scss */
 .fa-truck:before {
   content: "\f0d1";
 }
 
-/* line 757, ../sass/fonts/_font-awesome.scss */
+/* line 740, ../sass/fonts/_font-awesome.scss */
 .fa-pinterest:before {
   content: "\f0d2";
 }
 
-/* line 760, ../sass/fonts/_font-awesome.scss */
+/* line 743, ../sass/fonts/_font-awesome.scss */
 .fa-pinterest-square:before {
   content: "\f0d3";
 }
 
-/* line 763, ../sass/fonts/_font-awesome.scss */
+/* line 746, ../sass/fonts/_font-awesome.scss */
 .fa-google-plus-square:before {
   content: "\f0d4";
 }
 
-/* line 766, ../sass/fonts/_font-awesome.scss */
+/* line 749, ../sass/fonts/_font-awesome.scss */
 .fa-google-plus:before {
   content: "\f0d5";
 }
 
-/* line 769, ../sass/fonts/_font-awesome.scss */
+/* line 752, ../sass/fonts/_font-awesome.scss */
 .fa-money:before {
   content: "\f0d6";
 }
 
-/* line 772, ../sass/fonts/_font-awesome.scss */
+/* line 755, ../sass/fonts/_font-awesome.scss */
 .fa-caret-down:before {
   content: "\f0d7";
 }
 
-/* line 775, ../sass/fonts/_font-awesome.scss */
+/* line 758, ../sass/fonts/_font-awesome.scss */
 .fa-caret-up:before {
   content: "\f0d8";
 }
 
-/* line 778, ../sass/fonts/_font-awesome.scss */
+/* line 761, ../sass/fonts/_font-awesome.scss */
 .fa-caret-left:before {
   content: "\f0d9";
 }
 
-/* line 781, ../sass/fonts/_font-awesome.scss */
+/* line 764, ../sass/fonts/_font-awesome.scss */
 .fa-caret-right:before {
   content: "\f0da";
 }
 
-/* line 784, ../sass/fonts/_font-awesome.scss */
+/* line 767, ../sass/fonts/_font-awesome.scss */
 .fa-columns:before {
   content: "\f0db";
 }
 
-/* line 788, ../sass/fonts/_font-awesome.scss */
+/* line 770, ../sass/fonts/_font-awesome.scss */
 .fa-unsorted:before,
 .fa-sort:before {
   content: "\f0dc";
 }
 
-/* line 792, ../sass/fonts/_font-awesome.scss */
+/* line 774, ../sass/fonts/_font-awesome.scss */
 .fa-sort-down:before,
 .fa-sort-desc:before {
   content: "\f0dd";
 }
 
-/* line 796, ../sass/fonts/_font-awesome.scss */
+/* line 778, ../sass/fonts/_font-awesome.scss */
 .fa-sort-up:before,
 .fa-sort-asc:before {
   content: "\f0de";
 }
 
-/* line 799, ../sass/fonts/_font-awesome.scss */
+/* line 782, ../sass/fonts/_font-awesome.scss */
 .fa-envelope:before {
   content: "\f0e0";
 }
 
-/* line 802, ../sass/fonts/_font-awesome.scss */
+/* line 785, ../sass/fonts/_font-awesome.scss */
 .fa-linkedin:before {
   content: "\f0e1";
 }
 
-/* line 806, ../sass/fonts/_font-awesome.scss */
+/* line 788, ../sass/fonts/_font-awesome.scss */
 .fa-rotate-left:before,
 .fa-undo:before {
   content: "\f0e2";
 }
 
-/* line 810, ../sass/fonts/_font-awesome.scss */
+/* line 792, ../sass/fonts/_font-awesome.scss */
 .fa-legal:before,
 .fa-gavel:before {
   content: "\f0e3";
 }
 
-/* line 814, ../sass/fonts/_font-awesome.scss */
+/* line 796, ../sass/fonts/_font-awesome.scss */
 .fa-dashboard:before,
 .fa-tachometer:before {
   content: "\f0e4";
 }
 
-/* line 817, ../sass/fonts/_font-awesome.scss */
+/* line 800, ../sass/fonts/_font-awesome.scss */
 .fa-comment-o:before {
   content: "\f0e5";
 }
 
-/* line 820, ../sass/fonts/_font-awesome.scss */
+/* line 803, ../sass/fonts/_font-awesome.scss */
 .fa-comments-o:before {
   content: "\f0e6";
 }
 
-/* line 824, ../sass/fonts/_font-awesome.scss */
+/* line 806, ../sass/fonts/_font-awesome.scss */
 .fa-flash:before,
 .fa-bolt:before {
   content: "\f0e7";
 }
 
-/* line 827, ../sass/fonts/_font-awesome.scss */
+/* line 810, ../sass/fonts/_font-awesome.scss */
 .fa-sitemap:before {
   content: "\f0e8";
 }
 
-/* line 830, ../sass/fonts/_font-awesome.scss */
+/* line 813, ../sass/fonts/_font-awesome.scss */
 .fa-umbrella:before {
   content: "\f0e9";
 }
 
-/* line 834, ../sass/fonts/_font-awesome.scss */
+/* line 816, ../sass/fonts/_font-awesome.scss */
 .fa-paste:before,
 .fa-clipboard:before {
   content: "\f0ea";
 }
 
-/* line 837, ../sass/fonts/_font-awesome.scss */
+/* line 820, ../sass/fonts/_font-awesome.scss */
 .fa-lightbulb-o:before {
   content: "\f0eb";
 }
 
-/* line 840, ../sass/fonts/_font-awesome.scss */
+/* line 823, ../sass/fonts/_font-awesome.scss */
 .fa-exchange:before {
   content: "\f0ec";
 }
 
-/* line 843, ../sass/fonts/_font-awesome.scss */
+/* line 826, ../sass/fonts/_font-awesome.scss */
 .fa-cloud-download:before {
   content: "\f0ed";
 }
 
-/* line 846, ../sass/fonts/_font-awesome.scss */
+/* line 829, ../sass/fonts/_font-awesome.scss */
 .fa-cloud-upload:before {
   content: "\f0ee";
 }
 
-/* line 849, ../sass/fonts/_font-awesome.scss */
+/* line 832, ../sass/fonts/_font-awesome.scss */
 .fa-user-md:before {
   content: "\f0f0";
 }
 
-/* line 852, ../sass/fonts/_font-awesome.scss */
+/* line 835, ../sass/fonts/_font-awesome.scss */
 .fa-stethoscope:before {
   content: "\f0f1";
 }
 
-/* line 855, ../sass/fonts/_font-awesome.scss */
+/* line 838, ../sass/fonts/_font-awesome.scss */
 .fa-suitcase:before {
   content: "\f0f2";
 }
 
-/* line 858, ../sass/fonts/_font-awesome.scss */
+/* line 841, ../sass/fonts/_font-awesome.scss */
 .fa-bell-o:before {
   content: "\f0a2";
 }
 
-/* line 861, ../sass/fonts/_font-awesome.scss */
+/* line 844, ../sass/fonts/_font-awesome.scss */
 .fa-coffee:before {
   content: "\f0f4";
 }
 
-/* line 864, ../sass/fonts/_font-awesome.scss */
+/* line 847, ../sass/fonts/_font-awesome.scss */
 .fa-cutlery:before {
   content: "\f0f5";
 }
 
-/* line 867, ../sass/fonts/_font-awesome.scss */
+/* line 850, ../sass/fonts/_font-awesome.scss */
 .fa-file-text-o:before {
   content: "\f0f6";
 }
 
-/* line 870, ../sass/fonts/_font-awesome.scss */
+/* line 853, ../sass/fonts/_font-awesome.scss */
 .fa-building-o:before {
   content: "\f0f7";
 }
 
-/* line 873, ../sass/fonts/_font-awesome.scss */
+/* line 856, ../sass/fonts/_font-awesome.scss */
 .fa-hospital-o:before {
   content: "\f0f8";
 }
 
-/* line 876, ../sass/fonts/_font-awesome.scss */
+/* line 859, ../sass/fonts/_font-awesome.scss */
 .fa-ambulance:before {
   content: "\f0f9";
 }
 
-/* line 879, ../sass/fonts/_font-awesome.scss */
+/* line 862, ../sass/fonts/_font-awesome.scss */
 .fa-medkit:before {
   content: "\f0fa";
 }
 
-/* line 882, ../sass/fonts/_font-awesome.scss */
+/* line 865, ../sass/fonts/_font-awesome.scss */
 .fa-fighter-jet:before {
   content: "\f0fb";
 }
 
-/* line 885, ../sass/fonts/_font-awesome.scss */
+/* line 868, ../sass/fonts/_font-awesome.scss */
 .fa-beer:before {
   content: "\f0fc";
 }
 
-/* line 888, ../sass/fonts/_font-awesome.scss */
+/* line 871, ../sass/fonts/_font-awesome.scss */
 .fa-h-square:before {
   content: "\f0fd";
 }
 
-/* line 891, ../sass/fonts/_font-awesome.scss */
+/* line 874, ../sass/fonts/_font-awesome.scss */
 .fa-plus-square:before {
   content: "\f0fe";
 }
 
-/* line 894, ../sass/fonts/_font-awesome.scss */
+/* line 877, ../sass/fonts/_font-awesome.scss */
 .fa-angle-double-left:before {
   content: "\f100";
 }
 
-/* line 897, ../sass/fonts/_font-awesome.scss */
+/* line 880, ../sass/fonts/_font-awesome.scss */
 .fa-angle-double-right:before {
   content: "\f101";
 }
 
-/* line 900, ../sass/fonts/_font-awesome.scss */
+/* line 883, ../sass/fonts/_font-awesome.scss */
 .fa-angle-double-up:before {
   content: "\f102";
 }
 
-/* line 903, ../sass/fonts/_font-awesome.scss */
+/* line 886, ../sass/fonts/_font-awesome.scss */
 .fa-angle-double-down:before {
   content: "\f103";
 }
 
-/* line 906, ../sass/fonts/_font-awesome.scss */
+/* line 889, ../sass/fonts/_font-awesome.scss */
 .fa-angle-left:before {
   content: "\f104";
 }
 
-/* line 909, ../sass/fonts/_font-awesome.scss */
+/* line 892, ../sass/fonts/_font-awesome.scss */
 .fa-angle-right:before {
   content: "\f105";
 }
 
-/* line 912, ../sass/fonts/_font-awesome.scss */
+/* line 895, ../sass/fonts/_font-awesome.scss */
 .fa-angle-up:before {
   content: "\f106";
 }
 
-/* line 915, ../sass/fonts/_font-awesome.scss */
+/* line 898, ../sass/fonts/_font-awesome.scss */
 .fa-angle-down:before {
   content: "\f107";
 }
 
-/* line 918, ../sass/fonts/_font-awesome.scss */
+/* line 901, ../sass/fonts/_font-awesome.scss */
 .fa-desktop:before {
   content: "\f108";
 }
 
-/* line 921, ../sass/fonts/_font-awesome.scss */
+/* line 904, ../sass/fonts/_font-awesome.scss */
 .fa-laptop:before {
   content: "\f109";
 }
 
-/* line 924, ../sass/fonts/_font-awesome.scss */
+/* line 907, ../sass/fonts/_font-awesome.scss */
 .fa-tablet:before {
   content: "\f10a";
 }
 
-/* line 928, ../sass/fonts/_font-awesome.scss */
+/* line 910, ../sass/fonts/_font-awesome.scss */
 .fa-mobile-phone:before,
 .fa-mobile:before {
   content: "\f10b";
 }
 
-/* line 931, ../sass/fonts/_font-awesome.scss */
+/* line 914, ../sass/fonts/_font-awesome.scss */
 .fa-circle-o:before {
   content: "\f10c";
 }
 
-/* line 934, ../sass/fonts/_font-awesome.scss */
+/* line 917, ../sass/fonts/_font-awesome.scss */
 .fa-quote-left:before {
   content: "\f10d";
 }
 
-/* line 937, ../sass/fonts/_font-awesome.scss */
+/* line 920, ../sass/fonts/_font-awesome.scss */
 .fa-quote-right:before {
   content: "\f10e";
 }
 
-/* line 940, ../sass/fonts/_font-awesome.scss */
+/* line 923, ../sass/fonts/_font-awesome.scss */
 .fa-spinner:before {
   content: "\f110";
 }
 
-/* line 943, ../sass/fonts/_font-awesome.scss */
+/* line 926, ../sass/fonts/_font-awesome.scss */
 .fa-circle:before {
   content: "\f111";
 }
 
-/* line 947, ../sass/fonts/_font-awesome.scss */
+/* line 929, ../sass/fonts/_font-awesome.scss */
 .fa-mail-reply:before,
 .fa-reply:before {
   content: "\f112";
 }
 
-/* line 950, ../sass/fonts/_font-awesome.scss */
+/* line 933, ../sass/fonts/_font-awesome.scss */
 .fa-github-alt:before {
   content: "\f113";
 }
 
-/* line 953, ../sass/fonts/_font-awesome.scss */
+/* line 936, ../sass/fonts/_font-awesome.scss */
 .fa-folder-o:before {
   content: "\f114";
 }
 
-/* line 956, ../sass/fonts/_font-awesome.scss */
+/* line 939, ../sass/fonts/_font-awesome.scss */
 .fa-folder-open-o:before {
   content: "\f115";
 }
 
-/* line 959, ../sass/fonts/_font-awesome.scss */
+/* line 942, ../sass/fonts/_font-awesome.scss */
 .fa-smile-o:before {
   content: "\f118";
 }
 
-/* line 962, ../sass/fonts/_font-awesome.scss */
+/* line 945, ../sass/fonts/_font-awesome.scss */
 .fa-frown-o:before {
   content: "\f119";
 }
 
-/* line 965, ../sass/fonts/_font-awesome.scss */
+/* line 948, ../sass/fonts/_font-awesome.scss */
 .fa-meh-o:before {
   content: "\f11a";
 }
 
-/* line 968, ../sass/fonts/_font-awesome.scss */
+/* line 951, ../sass/fonts/_font-awesome.scss */
 .fa-gamepad:before {
   content: "\f11b";
 }
 
-/* line 971, ../sass/fonts/_font-awesome.scss */
+/* line 954, ../sass/fonts/_font-awesome.scss */
 .fa-keyboard-o:before {
   content: "\f11c";
 }
 
-/* line 974, ../sass/fonts/_font-awesome.scss */
+/* line 957, ../sass/fonts/_font-awesome.scss */
 .fa-flag-o:before {
   content: "\f11d";
 }
 
-/* line 977, ../sass/fonts/_font-awesome.scss */
+/* line 960, ../sass/fonts/_font-awesome.scss */
 .fa-flag-checkered:before {
   content: "\f11e";
 }
 
-/* line 980, ../sass/fonts/_font-awesome.scss */
+/* line 963, ../sass/fonts/_font-awesome.scss */
 .fa-terminal:before {
   content: "\f120";
 }
 
-/* line 983, ../sass/fonts/_font-awesome.scss */
+/* line 966, ../sass/fonts/_font-awesome.scss */
 .fa-code:before {
   content: "\f121";
 }
 
-/* line 987, ../sass/fonts/_font-awesome.scss */
+/* line 969, ../sass/fonts/_font-awesome.scss */
 .fa-mail-reply-all:before,
 .fa-reply-all:before {
   content: "\f122";
 }
 
-/* line 992, ../sass/fonts/_font-awesome.scss */
+/* line 973, ../sass/fonts/_font-awesome.scss */
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
 .fa-star-half-o:before {
   content: "\f123";
 }
 
-/* line 995, ../sass/fonts/_font-awesome.scss */
+/* line 978, ../sass/fonts/_font-awesome.scss */
 .fa-location-arrow:before {
   content: "\f124";
 }
 
-/* line 998, ../sass/fonts/_font-awesome.scss */
+/* line 981, ../sass/fonts/_font-awesome.scss */
 .fa-crop:before {
   content: "\f125";
 }
 
-/* line 1001, ../sass/fonts/_font-awesome.scss */
+/* line 984, ../sass/fonts/_font-awesome.scss */
 .fa-code-fork:before {
   content: "\f126";
 }
 
-/* line 1005, ../sass/fonts/_font-awesome.scss */
+/* line 987, ../sass/fonts/_font-awesome.scss */
 .fa-unlink:before,
 .fa-chain-broken:before {
   content: "\f127";
 }
 
-/* line 1008, ../sass/fonts/_font-awesome.scss */
+/* line 991, ../sass/fonts/_font-awesome.scss */
 .fa-question:before {
   content: "\f128";
 }
 
-/* line 1011, ../sass/fonts/_font-awesome.scss */
+/* line 994, ../sass/fonts/_font-awesome.scss */
 .fa-info:before {
   content: "\f129";
 }
 
-/* line 1014, ../sass/fonts/_font-awesome.scss */
+/* line 997, ../sass/fonts/_font-awesome.scss */
 .fa-exclamation:before {
   content: "\f12a";
 }
 
-/* line 1017, ../sass/fonts/_font-awesome.scss */
+/* line 1000, ../sass/fonts/_font-awesome.scss */
 .fa-superscript:before {
   content: "\f12b";
 }
 
-/* line 1020, ../sass/fonts/_font-awesome.scss */
+/* line 1003, ../sass/fonts/_font-awesome.scss */
 .fa-subscript:before {
   content: "\f12c";
 }
 
-/* line 1023, ../sass/fonts/_font-awesome.scss */
+/* line 1006, ../sass/fonts/_font-awesome.scss */
 .fa-eraser:before {
   content: "\f12d";
 }
 
-/* line 1026, ../sass/fonts/_font-awesome.scss */
+/* line 1009, ../sass/fonts/_font-awesome.scss */
 .fa-puzzle-piece:before {
   content: "\f12e";
 }
 
-/* line 1029, ../sass/fonts/_font-awesome.scss */
+/* line 1012, ../sass/fonts/_font-awesome.scss */
 .fa-microphone:before {
   content: "\f130";
 }
 
-/* line 1032, ../sass/fonts/_font-awesome.scss */
+/* line 1015, ../sass/fonts/_font-awesome.scss */
 .fa-microphone-slash:before {
   content: "\f131";
 }
 
-/* line 1035, ../sass/fonts/_font-awesome.scss */
+/* line 1018, ../sass/fonts/_font-awesome.scss */
 .fa-shield:before {
   content: "\f132";
 }
 
-/* line 1038, ../sass/fonts/_font-awesome.scss */
+/* line 1021, ../sass/fonts/_font-awesome.scss */
 .fa-calendar-o:before {
   content: "\f133";
 }
 
-/* line 1041, ../sass/fonts/_font-awesome.scss */
+/* line 1024, ../sass/fonts/_font-awesome.scss */
 .fa-fire-extinguisher:before {
   content: "\f134";
 }
 
-/* line 1044, ../sass/fonts/_font-awesome.scss */
+/* line 1027, ../sass/fonts/_font-awesome.scss */
 .fa-rocket:before {
   content: "\f135";
 }
 
-/* line 1047, ../sass/fonts/_font-awesome.scss */
+/* line 1030, ../sass/fonts/_font-awesome.scss */
 .fa-maxcdn:before {
   content: "\f136";
 }
 
-/* line 1050, ../sass/fonts/_font-awesome.scss */
+/* line 1033, ../sass/fonts/_font-awesome.scss */
 .fa-chevron-circle-left:before {
   content: "\f137";
 }
 
-/* line 1053, ../sass/fonts/_font-awesome.scss */
+/* line 1036, ../sass/fonts/_font-awesome.scss */
 .fa-chevron-circle-right:before {
   content: "\f138";
 }
 
-/* line 1056, ../sass/fonts/_font-awesome.scss */
+/* line 1039, ../sass/fonts/_font-awesome.scss */
 .fa-chevron-circle-up:before {
   content: "\f139";
 }
 
-/* line 1059, ../sass/fonts/_font-awesome.scss */
+/* line 1042, ../sass/fonts/_font-awesome.scss */
 .fa-chevron-circle-down:before {
   content: "\f13a";
 }
 
-/* line 1062, ../sass/fonts/_font-awesome.scss */
+/* line 1045, ../sass/fonts/_font-awesome.scss */
 .fa-html5:before {
   content: "\f13b";
 }
 
-/* line 1065, ../sass/fonts/_font-awesome.scss */
+/* line 1048, ../sass/fonts/_font-awesome.scss */
 .fa-css3:before {
   content: "\f13c";
 }
 
-/* line 1068, ../sass/fonts/_font-awesome.scss */
+/* line 1051, ../sass/fonts/_font-awesome.scss */
 .fa-anchor:before {
   content: "\f13d";
 }
 
-/* line 1071, ../sass/fonts/_font-awesome.scss */
+/* line 1054, ../sass/fonts/_font-awesome.scss */
 .fa-unlock-alt:before {
   content: "\f13e";
 }
 
-/* line 1074, ../sass/fonts/_font-awesome.scss */
+/* line 1057, ../sass/fonts/_font-awesome.scss */
 .fa-bullseye:before {
   content: "\f140";
 }
 
-/* line 1077, ../sass/fonts/_font-awesome.scss */
+/* line 1060, ../sass/fonts/_font-awesome.scss */
 .fa-ellipsis-h:before {
   content: "\f141";
 }
 
-/* line 1080, ../sass/fonts/_font-awesome.scss */
+/* line 1063, ../sass/fonts/_font-awesome.scss */
 .fa-ellipsis-v:before {
   content: "\f142";
 }
 
-/* line 1083, ../sass/fonts/_font-awesome.scss */
+/* line 1066, ../sass/fonts/_font-awesome.scss */
 .fa-rss-square:before {
   content: "\f143";
 }
 
-/* line 1086, ../sass/fonts/_font-awesome.scss */
+/* line 1069, ../sass/fonts/_font-awesome.scss */
 .fa-play-circle:before {
   content: "\f144";
 }
 
-/* line 1089, ../sass/fonts/_font-awesome.scss */
+/* line 1072, ../sass/fonts/_font-awesome.scss */
 .fa-ticket:before {
   content: "\f145";
 }
 
-/* line 1092, ../sass/fonts/_font-awesome.scss */
+/* line 1075, ../sass/fonts/_font-awesome.scss */
 .fa-minus-square:before {
   content: "\f146";
 }
 
-/* line 1095, ../sass/fonts/_font-awesome.scss */
+/* line 1078, ../sass/fonts/_font-awesome.scss */
 .fa-minus-square-o:before {
   content: "\f147";
 }
 
-/* line 1098, ../sass/fonts/_font-awesome.scss */
+/* line 1081, ../sass/fonts/_font-awesome.scss */
 .fa-level-up:before {
   content: "\f148";
 }
 
-/* line 1101, ../sass/fonts/_font-awesome.scss */
+/* line 1084, ../sass/fonts/_font-awesome.scss */
 .fa-level-down:before {
   content: "\f149";
 }
 
-/* line 1104, ../sass/fonts/_font-awesome.scss */
+/* line 1087, ../sass/fonts/_font-awesome.scss */
 .fa-check-square:before {
   content: "\f14a";
 }
 
-/* line 1107, ../sass/fonts/_font-awesome.scss */
+/* line 1090, ../sass/fonts/_font-awesome.scss */
 .fa-pencil-square:before {
   content: "\f14b";
 }
 
-/* line 1110, ../sass/fonts/_font-awesome.scss */
+/* line 1093, ../sass/fonts/_font-awesome.scss */
 .fa-external-link-square:before {
   content: "\f14c";
 }
 
-/* line 1113, ../sass/fonts/_font-awesome.scss */
+/* line 1096, ../sass/fonts/_font-awesome.scss */
 .fa-share-square:before {
   content: "\f14d";
 }
 
-/* line 1116, ../sass/fonts/_font-awesome.scss */
+/* line 1099, ../sass/fonts/_font-awesome.scss */
 .fa-compass:before {
   content: "\f14e";
 }
 
-/* line 1120, ../sass/fonts/_font-awesome.scss */
+/* line 1102, ../sass/fonts/_font-awesome.scss */
 .fa-toggle-down:before,
 .fa-caret-square-o-down:before {
   content: "\f150";
 }
 
-/* line 1124, ../sass/fonts/_font-awesome.scss */
+/* line 1106, ../sass/fonts/_font-awesome.scss */
 .fa-toggle-up:before,
 .fa-caret-square-o-up:before {
   content: "\f151";
 }
 
-/* line 1128, ../sass/fonts/_font-awesome.scss */
+/* line 1110, ../sass/fonts/_font-awesome.scss */
 .fa-toggle-right:before,
 .fa-caret-square-o-right:before {
   content: "\f152";
 }
 
-/* line 1132, ../sass/fonts/_font-awesome.scss */
+/* line 1114, ../sass/fonts/_font-awesome.scss */
 .fa-euro:before,
 .fa-eur:before {
   content: "\f153";
 }
 
-/* line 1135, ../sass/fonts/_font-awesome.scss */
+/* line 1118, ../sass/fonts/_font-awesome.scss */
 .fa-gbp:before {
   content: "\f154";
 }
 
-/* line 1139, ../sass/fonts/_font-awesome.scss */
+/* line 1121, ../sass/fonts/_font-awesome.scss */
 .fa-dollar:before,
 .fa-usd:before {
   content: "\f155";
 }
 
-/* line 1143, ../sass/fonts/_font-awesome.scss */
+/* line 1125, ../sass/fonts/_font-awesome.scss */
 .fa-rupee:before,
 .fa-inr:before {
   content: "\f156";
 }
 
-/* line 1149, ../sass/fonts/_font-awesome.scss */
+/* line 1129, ../sass/fonts/_font-awesome.scss */
 .fa-cny:before,
 .fa-rmb:before,
 .fa-yen:before,
@@ -9746,679 +9709,882 @@ button.close {
   content: "\f157";
 }
 
-/* line 1154, ../sass/fonts/_font-awesome.scss */
+/* line 1135, ../sass/fonts/_font-awesome.scss */
 .fa-ruble:before,
 .fa-rouble:before,
 .fa-rub:before {
   content: "\f158";
 }
 
-/* line 1158, ../sass/fonts/_font-awesome.scss */
+/* line 1140, ../sass/fonts/_font-awesome.scss */
 .fa-won:before,
 .fa-krw:before {
   content: "\f159";
 }
 
-/* line 1162, ../sass/fonts/_font-awesome.scss */
+/* line 1144, ../sass/fonts/_font-awesome.scss */
 .fa-bitcoin:before,
 .fa-btc:before {
   content: "\f15a";
 }
 
-/* line 1165, ../sass/fonts/_font-awesome.scss */
+/* line 1148, ../sass/fonts/_font-awesome.scss */
 .fa-file:before {
   content: "\f15b";
 }
 
-/* line 1168, ../sass/fonts/_font-awesome.scss */
+/* line 1151, ../sass/fonts/_font-awesome.scss */
 .fa-file-text:before {
   content: "\f15c";
 }
 
-/* line 1171, ../sass/fonts/_font-awesome.scss */
+/* line 1154, ../sass/fonts/_font-awesome.scss */
 .fa-sort-alpha-asc:before {
   content: "\f15d";
 }
 
-/* line 1174, ../sass/fonts/_font-awesome.scss */
+/* line 1157, ../sass/fonts/_font-awesome.scss */
 .fa-sort-alpha-desc:before {
   content: "\f15e";
 }
 
-/* line 1177, ../sass/fonts/_font-awesome.scss */
+/* line 1160, ../sass/fonts/_font-awesome.scss */
 .fa-sort-amount-asc:before {
   content: "\f160";
 }
 
-/* line 1180, ../sass/fonts/_font-awesome.scss */
+/* line 1163, ../sass/fonts/_font-awesome.scss */
 .fa-sort-amount-desc:before {
   content: "\f161";
 }
 
-/* line 1183, ../sass/fonts/_font-awesome.scss */
+/* line 1166, ../sass/fonts/_font-awesome.scss */
 .fa-sort-numeric-asc:before {
   content: "\f162";
 }
 
-/* line 1186, ../sass/fonts/_font-awesome.scss */
+/* line 1169, ../sass/fonts/_font-awesome.scss */
 .fa-sort-numeric-desc:before {
   content: "\f163";
 }
 
-/* line 1189, ../sass/fonts/_font-awesome.scss */
+/* line 1172, ../sass/fonts/_font-awesome.scss */
 .fa-thumbs-up:before {
   content: "\f164";
 }
 
-/* line 1192, ../sass/fonts/_font-awesome.scss */
+/* line 1175, ../sass/fonts/_font-awesome.scss */
 .fa-thumbs-down:before {
   content: "\f165";
 }
 
-/* line 1195, ../sass/fonts/_font-awesome.scss */
+/* line 1178, ../sass/fonts/_font-awesome.scss */
 .fa-youtube-square:before {
   content: "\f166";
 }
 
-/* line 1198, ../sass/fonts/_font-awesome.scss */
+/* line 1181, ../sass/fonts/_font-awesome.scss */
 .fa-youtube:before {
   content: "\f167";
 }
 
-/* line 1201, ../sass/fonts/_font-awesome.scss */
+/* line 1184, ../sass/fonts/_font-awesome.scss */
 .fa-xing:before {
   content: "\f168";
 }
 
-/* line 1204, ../sass/fonts/_font-awesome.scss */
+/* line 1187, ../sass/fonts/_font-awesome.scss */
 .fa-xing-square:before {
   content: "\f169";
 }
 
-/* line 1207, ../sass/fonts/_font-awesome.scss */
+/* line 1190, ../sass/fonts/_font-awesome.scss */
 .fa-youtube-play:before {
   content: "\f16a";
 }
 
-/* line 1210, ../sass/fonts/_font-awesome.scss */
+/* line 1193, ../sass/fonts/_font-awesome.scss */
 .fa-dropbox:before {
   content: "\f16b";
 }
 
-/* line 1213, ../sass/fonts/_font-awesome.scss */
+/* line 1196, ../sass/fonts/_font-awesome.scss */
 .fa-stack-overflow:before {
   content: "\f16c";
 }
 
-/* line 1216, ../sass/fonts/_font-awesome.scss */
+/* line 1199, ../sass/fonts/_font-awesome.scss */
 .fa-instagram:before {
   content: "\f16d";
 }
 
-/* line 1219, ../sass/fonts/_font-awesome.scss */
+/* line 1202, ../sass/fonts/_font-awesome.scss */
 .fa-flickr:before {
   content: "\f16e";
 }
 
-/* line 1222, ../sass/fonts/_font-awesome.scss */
+/* line 1205, ../sass/fonts/_font-awesome.scss */
 .fa-adn:before {
   content: "\f170";
 }
 
-/* line 1225, ../sass/fonts/_font-awesome.scss */
+/* line 1208, ../sass/fonts/_font-awesome.scss */
 .fa-bitbucket:before {
   content: "\f171";
 }
 
-/* line 1228, ../sass/fonts/_font-awesome.scss */
+/* line 1211, ../sass/fonts/_font-awesome.scss */
 .fa-bitbucket-square:before {
   content: "\f172";
 }
 
-/* line 1231, ../sass/fonts/_font-awesome.scss */
+/* line 1214, ../sass/fonts/_font-awesome.scss */
 .fa-tumblr:before {
   content: "\f173";
 }
 
-/* line 1234, ../sass/fonts/_font-awesome.scss */
+/* line 1217, ../sass/fonts/_font-awesome.scss */
 .fa-tumblr-square:before {
   content: "\f174";
 }
 
-/* line 1237, ../sass/fonts/_font-awesome.scss */
+/* line 1220, ../sass/fonts/_font-awesome.scss */
 .fa-long-arrow-down:before {
   content: "\f175";
 }
 
-/* line 1240, ../sass/fonts/_font-awesome.scss */
+/* line 1223, ../sass/fonts/_font-awesome.scss */
 .fa-long-arrow-up:before {
   content: "\f176";
 }
 
-/* line 1243, ../sass/fonts/_font-awesome.scss */
+/* line 1226, ../sass/fonts/_font-awesome.scss */
 .fa-long-arrow-left:before {
   content: "\f177";
 }
 
-/* line 1246, ../sass/fonts/_font-awesome.scss */
+/* line 1229, ../sass/fonts/_font-awesome.scss */
 .fa-long-arrow-right:before {
   content: "\f178";
 }
 
-/* line 1249, ../sass/fonts/_font-awesome.scss */
+/* line 1232, ../sass/fonts/_font-awesome.scss */
 .fa-apple:before {
   content: "\f179";
 }
 
-/* line 1252, ../sass/fonts/_font-awesome.scss */
+/* line 1235, ../sass/fonts/_font-awesome.scss */
 .fa-windows:before {
   content: "\f17a";
 }
 
-/* line 1255, ../sass/fonts/_font-awesome.scss */
+/* line 1238, ../sass/fonts/_font-awesome.scss */
 .fa-android:before {
   content: "\f17b";
 }
 
-/* line 1258, ../sass/fonts/_font-awesome.scss */
+/* line 1241, ../sass/fonts/_font-awesome.scss */
 .fa-linux:before {
   content: "\f17c";
 }
 
-/* line 1261, ../sass/fonts/_font-awesome.scss */
+/* line 1244, ../sass/fonts/_font-awesome.scss */
 .fa-dribbble:before {
   content: "\f17d";
 }
 
-/* line 1264, ../sass/fonts/_font-awesome.scss */
+/* line 1247, ../sass/fonts/_font-awesome.scss */
 .fa-skype:before {
   content: "\f17e";
 }
 
-/* line 1267, ../sass/fonts/_font-awesome.scss */
+/* line 1250, ../sass/fonts/_font-awesome.scss */
 .fa-foursquare:before {
   content: "\f180";
 }
 
-/* line 1270, ../sass/fonts/_font-awesome.scss */
+/* line 1253, ../sass/fonts/_font-awesome.scss */
 .fa-trello:before {
   content: "\f181";
 }
 
-/* line 1273, ../sass/fonts/_font-awesome.scss */
+/* line 1256, ../sass/fonts/_font-awesome.scss */
 .fa-female:before {
   content: "\f182";
 }
 
-/* line 1276, ../sass/fonts/_font-awesome.scss */
+/* line 1259, ../sass/fonts/_font-awesome.scss */
 .fa-male:before {
   content: "\f183";
 }
 
-/* line 1279, ../sass/fonts/_font-awesome.scss */
+/* line 1262, ../sass/fonts/_font-awesome.scss */
 .fa-gittip:before {
   content: "\f184";
 }
 
-/* line 1282, ../sass/fonts/_font-awesome.scss */
+/* line 1265, ../sass/fonts/_font-awesome.scss */
 .fa-sun-o:before {
   content: "\f185";
 }
 
-/* line 1285, ../sass/fonts/_font-awesome.scss */
+/* line 1268, ../sass/fonts/_font-awesome.scss */
 .fa-moon-o:before {
   content: "\f186";
 }
 
-/* line 1288, ../sass/fonts/_font-awesome.scss */
+/* line 1271, ../sass/fonts/_font-awesome.scss */
 .fa-archive:before {
   content: "\f187";
 }
 
-/* line 1291, ../sass/fonts/_font-awesome.scss */
+/* line 1274, ../sass/fonts/_font-awesome.scss */
 .fa-bug:before {
   content: "\f188";
 }
 
-/* line 1294, ../sass/fonts/_font-awesome.scss */
+/* line 1277, ../sass/fonts/_font-awesome.scss */
 .fa-vk:before {
   content: "\f189";
 }
 
-/* line 1297, ../sass/fonts/_font-awesome.scss */
+/* line 1280, ../sass/fonts/_font-awesome.scss */
 .fa-weibo:before {
   content: "\f18a";
 }
 
-/* line 1300, ../sass/fonts/_font-awesome.scss */
+/* line 1283, ../sass/fonts/_font-awesome.scss */
 .fa-renren:before {
   content: "\f18b";
 }
 
-/* line 1303, ../sass/fonts/_font-awesome.scss */
+/* line 1286, ../sass/fonts/_font-awesome.scss */
 .fa-pagelines:before {
   content: "\f18c";
 }
 
-/* line 1306, ../sass/fonts/_font-awesome.scss */
+/* line 1289, ../sass/fonts/_font-awesome.scss */
 .fa-stack-exchange:before {
   content: "\f18d";
 }
 
-/* line 1309, ../sass/fonts/_font-awesome.scss */
+/* line 1292, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-circle-o-right:before {
   content: "\f18e";
 }
 
-/* line 1312, ../sass/fonts/_font-awesome.scss */
+/* line 1295, ../sass/fonts/_font-awesome.scss */
 .fa-arrow-circle-o-left:before {
   content: "\f190";
 }
 
-/* line 1316, ../sass/fonts/_font-awesome.scss */
+/* line 1298, ../sass/fonts/_font-awesome.scss */
 .fa-toggle-left:before,
 .fa-caret-square-o-left:before {
   content: "\f191";
 }
 
-/* line 1319, ../sass/fonts/_font-awesome.scss */
+/* line 1302, ../sass/fonts/_font-awesome.scss */
 .fa-dot-circle-o:before {
   content: "\f192";
 }
 
-/* line 1322, ../sass/fonts/_font-awesome.scss */
+/* line 1305, ../sass/fonts/_font-awesome.scss */
 .fa-wheelchair:before {
   content: "\f193";
 }
 
-/* line 1325, ../sass/fonts/_font-awesome.scss */
+/* line 1308, ../sass/fonts/_font-awesome.scss */
 .fa-vimeo-square:before {
   content: "\f194";
 }
 
-/* line 1329, ../sass/fonts/_font-awesome.scss */
+/* line 1311, ../sass/fonts/_font-awesome.scss */
 .fa-turkish-lira:before,
 .fa-try:before {
   content: "\f195";
 }
 
-/* line 1332, ../sass/fonts/_font-awesome.scss */
+/* line 1315, ../sass/fonts/_font-awesome.scss */
 .fa-plus-square-o:before {
   content: "\f196";
 }
 
-/* line 1335, ../sass/fonts/_font-awesome.scss */
+/* line 1318, ../sass/fonts/_font-awesome.scss */
 .fa-space-shuttle:before {
   content: "\f197";
 }
 
-/* line 1338, ../sass/fonts/_font-awesome.scss */
+/* line 1321, ../sass/fonts/_font-awesome.scss */
 .fa-slack:before {
   content: "\f198";
 }
 
-/* line 1341, ../sass/fonts/_font-awesome.scss */
+/* line 1324, ../sass/fonts/_font-awesome.scss */
 .fa-envelope-square:before {
   content: "\f199";
 }
 
-/* line 1344, ../sass/fonts/_font-awesome.scss */
+/* line 1327, ../sass/fonts/_font-awesome.scss */
 .fa-wordpress:before {
   content: "\f19a";
 }
 
-/* line 1347, ../sass/fonts/_font-awesome.scss */
+/* line 1330, ../sass/fonts/_font-awesome.scss */
 .fa-openid:before {
   content: "\f19b";
 }
 
-/* line 1352, ../sass/fonts/_font-awesome.scss */
+/* line 1333, ../sass/fonts/_font-awesome.scss */
 .fa-institution:before,
 .fa-bank:before,
 .fa-university:before {
   content: "\f19c";
 }
 
-/* line 1356, ../sass/fonts/_font-awesome.scss */
+/* line 1338, ../sass/fonts/_font-awesome.scss */
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
   content: "\f19d";
 }
 
-/* line 1359, ../sass/fonts/_font-awesome.scss */
+/* line 1342, ../sass/fonts/_font-awesome.scss */
 .fa-yahoo:before {
   content: "\f19e";
 }
 
-/* line 1362, ../sass/fonts/_font-awesome.scss */
+/* line 1345, ../sass/fonts/_font-awesome.scss */
 .fa-google:before {
   content: "\f1a0";
 }
 
-/* line 1365, ../sass/fonts/_font-awesome.scss */
+/* line 1348, ../sass/fonts/_font-awesome.scss */
 .fa-reddit:before {
   content: "\f1a1";
 }
 
-/* line 1368, ../sass/fonts/_font-awesome.scss */
+/* line 1351, ../sass/fonts/_font-awesome.scss */
 .fa-reddit-square:before {
   content: "\f1a2";
 }
 
-/* line 1371, ../sass/fonts/_font-awesome.scss */
+/* line 1354, ../sass/fonts/_font-awesome.scss */
 .fa-stumbleupon-circle:before {
   content: "\f1a3";
 }
 
-/* line 1374, ../sass/fonts/_font-awesome.scss */
+/* line 1357, ../sass/fonts/_font-awesome.scss */
 .fa-stumbleupon:before {
   content: "\f1a4";
 }
 
-/* line 1377, ../sass/fonts/_font-awesome.scss */
+/* line 1360, ../sass/fonts/_font-awesome.scss */
 .fa-delicious:before {
   content: "\f1a5";
 }
 
-/* line 1380, ../sass/fonts/_font-awesome.scss */
+/* line 1363, ../sass/fonts/_font-awesome.scss */
 .fa-digg:before {
   content: "\f1a6";
 }
 
-/* line 1384, ../sass/fonts/_font-awesome.scss */
-.fa-pied-piper-square:before,
+/* line 1366, ../sass/fonts/_font-awesome.scss */
 .fa-pied-piper:before {
   content: "\f1a7";
 }
 
-/* line 1387, ../sass/fonts/_font-awesome.scss */
+/* line 1369, ../sass/fonts/_font-awesome.scss */
 .fa-pied-piper-alt:before {
   content: "\f1a8";
 }
 
-/* line 1390, ../sass/fonts/_font-awesome.scss */
+/* line 1372, ../sass/fonts/_font-awesome.scss */
 .fa-drupal:before {
   content: "\f1a9";
 }
 
-/* line 1393, ../sass/fonts/_font-awesome.scss */
+/* line 1375, ../sass/fonts/_font-awesome.scss */
 .fa-joomla:before {
   content: "\f1aa";
 }
 
-/* line 1396, ../sass/fonts/_font-awesome.scss */
+/* line 1378, ../sass/fonts/_font-awesome.scss */
 .fa-language:before {
   content: "\f1ab";
 }
 
-/* line 1399, ../sass/fonts/_font-awesome.scss */
+/* line 1381, ../sass/fonts/_font-awesome.scss */
 .fa-fax:before {
   content: "\f1ac";
 }
 
-/* line 1402, ../sass/fonts/_font-awesome.scss */
+/* line 1384, ../sass/fonts/_font-awesome.scss */
 .fa-building:before {
   content: "\f1ad";
 }
 
-/* line 1405, ../sass/fonts/_font-awesome.scss */
+/* line 1387, ../sass/fonts/_font-awesome.scss */
 .fa-child:before {
   content: "\f1ae";
 }
 
-/* line 1408, ../sass/fonts/_font-awesome.scss */
+/* line 1390, ../sass/fonts/_font-awesome.scss */
 .fa-paw:before {
   content: "\f1b0";
 }
 
-/* line 1411, ../sass/fonts/_font-awesome.scss */
+/* line 1393, ../sass/fonts/_font-awesome.scss */
 .fa-spoon:before {
   content: "\f1b1";
 }
 
-/* line 1414, ../sass/fonts/_font-awesome.scss */
+/* line 1396, ../sass/fonts/_font-awesome.scss */
 .fa-cube:before {
   content: "\f1b2";
 }
 
-/* line 1417, ../sass/fonts/_font-awesome.scss */
+/* line 1399, ../sass/fonts/_font-awesome.scss */
 .fa-cubes:before {
   content: "\f1b3";
 }
 
-/* line 1420, ../sass/fonts/_font-awesome.scss */
+/* line 1402, ../sass/fonts/_font-awesome.scss */
 .fa-behance:before {
   content: "\f1b4";
 }
 
-/* line 1423, ../sass/fonts/_font-awesome.scss */
+/* line 1405, ../sass/fonts/_font-awesome.scss */
 .fa-behance-square:before {
   content: "\f1b5";
 }
 
-/* line 1426, ../sass/fonts/_font-awesome.scss */
+/* line 1408, ../sass/fonts/_font-awesome.scss */
 .fa-steam:before {
   content: "\f1b6";
 }
 
-/* line 1429, ../sass/fonts/_font-awesome.scss */
+/* line 1411, ../sass/fonts/_font-awesome.scss */
 .fa-steam-square:before {
   content: "\f1b7";
 }
 
-/* line 1432, ../sass/fonts/_font-awesome.scss */
+/* line 1414, ../sass/fonts/_font-awesome.scss */
 .fa-recycle:before {
   content: "\f1b8";
 }
 
-/* line 1436, ../sass/fonts/_font-awesome.scss */
+/* line 1417, ../sass/fonts/_font-awesome.scss */
 .fa-automobile:before,
 .fa-car:before {
   content: "\f1b9";
 }
 
-/* line 1440, ../sass/fonts/_font-awesome.scss */
+/* line 1421, ../sass/fonts/_font-awesome.scss */
 .fa-cab:before,
 .fa-taxi:before {
   content: "\f1ba";
 }
 
-/* line 1443, ../sass/fonts/_font-awesome.scss */
+/* line 1425, ../sass/fonts/_font-awesome.scss */
 .fa-tree:before {
   content: "\f1bb";
 }
 
-/* line 1446, ../sass/fonts/_font-awesome.scss */
+/* line 1428, ../sass/fonts/_font-awesome.scss */
 .fa-spotify:before {
   content: "\f1bc";
 }
 
-/* line 1449, ../sass/fonts/_font-awesome.scss */
+/* line 1431, ../sass/fonts/_font-awesome.scss */
 .fa-deviantart:before {
   content: "\f1bd";
 }
 
-/* line 1452, ../sass/fonts/_font-awesome.scss */
+/* line 1434, ../sass/fonts/_font-awesome.scss */
 .fa-soundcloud:before {
   content: "\f1be";
 }
 
-/* line 1455, ../sass/fonts/_font-awesome.scss */
+/* line 1437, ../sass/fonts/_font-awesome.scss */
 .fa-database:before {
   content: "\f1c0";
 }
 
-/* line 1458, ../sass/fonts/_font-awesome.scss */
+/* line 1440, ../sass/fonts/_font-awesome.scss */
 .fa-file-pdf-o:before {
   content: "\f1c1";
 }
 
-/* line 1461, ../sass/fonts/_font-awesome.scss */
+/* line 1443, ../sass/fonts/_font-awesome.scss */
 .fa-file-word-o:before {
   content: "\f1c2";
 }
 
-/* line 1464, ../sass/fonts/_font-awesome.scss */
+/* line 1446, ../sass/fonts/_font-awesome.scss */
 .fa-file-excel-o:before {
   content: "\f1c3";
 }
 
-/* line 1467, ../sass/fonts/_font-awesome.scss */
+/* line 1449, ../sass/fonts/_font-awesome.scss */
 .fa-file-powerpoint-o:before {
   content: "\f1c4";
 }
 
-/* line 1472, ../sass/fonts/_font-awesome.scss */
+/* line 1452, ../sass/fonts/_font-awesome.scss */
 .fa-file-photo-o:before,
 .fa-file-picture-o:before,
 .fa-file-image-o:before {
   content: "\f1c5";
 }
 
-/* line 1476, ../sass/fonts/_font-awesome.scss */
+/* line 1457, ../sass/fonts/_font-awesome.scss */
 .fa-file-zip-o:before,
 .fa-file-archive-o:before {
   content: "\f1c6";
 }
 
-/* line 1480, ../sass/fonts/_font-awesome.scss */
+/* line 1461, ../sass/fonts/_font-awesome.scss */
 .fa-file-sound-o:before,
 .fa-file-audio-o:before {
   content: "\f1c7";
 }
 
-/* line 1484, ../sass/fonts/_font-awesome.scss */
+/* line 1465, ../sass/fonts/_font-awesome.scss */
 .fa-file-movie-o:before,
 .fa-file-video-o:before {
   content: "\f1c8";
 }
 
-/* line 1487, ../sass/fonts/_font-awesome.scss */
+/* line 1469, ../sass/fonts/_font-awesome.scss */
 .fa-file-code-o:before {
   content: "\f1c9";
 }
 
-/* line 1490, ../sass/fonts/_font-awesome.scss */
+/* line 1472, ../sass/fonts/_font-awesome.scss */
 .fa-vine:before {
   content: "\f1ca";
 }
 
-/* line 1493, ../sass/fonts/_font-awesome.scss */
+/* line 1475, ../sass/fonts/_font-awesome.scss */
 .fa-codepen:before {
   content: "\f1cb";
 }
 
-/* line 1496, ../sass/fonts/_font-awesome.scss */
+/* line 1478, ../sass/fonts/_font-awesome.scss */
 .fa-jsfiddle:before {
   content: "\f1cc";
 }
 
-/* line 1502, ../sass/fonts/_font-awesome.scss */
+/* line 1481, ../sass/fonts/_font-awesome.scss */
 .fa-life-bouy:before,
+.fa-life-buoy:before,
 .fa-life-saver:before,
 .fa-support:before,
 .fa-life-ring:before {
   content: "\f1cd";
 }
 
-/* line 1505, ../sass/fonts/_font-awesome.scss */
+/* line 1488, ../sass/fonts/_font-awesome.scss */
 .fa-circle-o-notch:before {
   content: "\f1ce";
 }
 
-/* line 1509, ../sass/fonts/_font-awesome.scss */
+/* line 1491, ../sass/fonts/_font-awesome.scss */
 .fa-ra:before,
 .fa-rebel:before {
   content: "\f1d0";
 }
 
-/* line 1513, ../sass/fonts/_font-awesome.scss */
+/* line 1495, ../sass/fonts/_font-awesome.scss */
 .fa-ge:before,
 .fa-empire:before {
   content: "\f1d1";
 }
 
-/* line 1516, ../sass/fonts/_font-awesome.scss */
+/* line 1499, ../sass/fonts/_font-awesome.scss */
 .fa-git-square:before {
   content: "\f1d2";
 }
 
-/* line 1519, ../sass/fonts/_font-awesome.scss */
+/* line 1502, ../sass/fonts/_font-awesome.scss */
 .fa-git:before {
   content: "\f1d3";
 }
 
-/* line 1522, ../sass/fonts/_font-awesome.scss */
+/* line 1505, ../sass/fonts/_font-awesome.scss */
 .fa-hacker-news:before {
   content: "\f1d4";
 }
 
-/* line 1525, ../sass/fonts/_font-awesome.scss */
+/* line 1508, ../sass/fonts/_font-awesome.scss */
 .fa-tencent-weibo:before {
   content: "\f1d5";
 }
 
-/* line 1528, ../sass/fonts/_font-awesome.scss */
+/* line 1511, ../sass/fonts/_font-awesome.scss */
 .fa-qq:before {
   content: "\f1d6";
 }
 
-/* line 1532, ../sass/fonts/_font-awesome.scss */
+/* line 1514, ../sass/fonts/_font-awesome.scss */
 .fa-wechat:before,
 .fa-weixin:before {
   content: "\f1d7";
 }
 
-/* line 1536, ../sass/fonts/_font-awesome.scss */
+/* line 1518, ../sass/fonts/_font-awesome.scss */
 .fa-send:before,
 .fa-paper-plane:before {
   content: "\f1d8";
 }
 
-/* line 1540, ../sass/fonts/_font-awesome.scss */
+/* line 1522, ../sass/fonts/_font-awesome.scss */
 .fa-send-o:before,
 .fa-paper-plane-o:before {
   content: "\f1d9";
 }
 
-/* line 1543, ../sass/fonts/_font-awesome.scss */
+/* line 1526, ../sass/fonts/_font-awesome.scss */
 .fa-history:before {
   content: "\f1da";
 }
 
-/* line 1546, ../sass/fonts/_font-awesome.scss */
+/* line 1529, ../sass/fonts/_font-awesome.scss */
 .fa-circle-thin:before {
   content: "\f1db";
 }
 
-/* line 1549, ../sass/fonts/_font-awesome.scss */
+/* line 1532, ../sass/fonts/_font-awesome.scss */
 .fa-header:before {
   content: "\f1dc";
 }
 
-/* line 1552, ../sass/fonts/_font-awesome.scss */
+/* line 1535, ../sass/fonts/_font-awesome.scss */
 .fa-paragraph:before {
   content: "\f1dd";
 }
 
-/* line 1555, ../sass/fonts/_font-awesome.scss */
+/* line 1538, ../sass/fonts/_font-awesome.scss */
 .fa-sliders:before {
   content: "\f1de";
 }
 
-/* line 1558, ../sass/fonts/_font-awesome.scss */
+/* line 1541, ../sass/fonts/_font-awesome.scss */
 .fa-share-alt:before {
   content: "\f1e0";
 }
 
-/* line 1561, ../sass/fonts/_font-awesome.scss */
+/* line 1544, ../sass/fonts/_font-awesome.scss */
 .fa-share-alt-square:before {
   content: "\f1e1";
 }
 
-/* line 1564, ../sass/fonts/_font-awesome.scss */
+/* line 1547, ../sass/fonts/_font-awesome.scss */
 .fa-bomb:before {
   content: "\f1e2";
+}
+
+/* line 1550, ../sass/fonts/_font-awesome.scss */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "\f1e3";
+}
+
+/* line 1554, ../sass/fonts/_font-awesome.scss */
+.fa-tty:before {
+  content: "\f1e4";
+}
+
+/* line 1557, ../sass/fonts/_font-awesome.scss */
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+
+/* line 1560, ../sass/fonts/_font-awesome.scss */
+.fa-plug:before {
+  content: "\f1e6";
+}
+
+/* line 1563, ../sass/fonts/_font-awesome.scss */
+.fa-slideshare:before {
+  content: "\f1e7";
+}
+
+/* line 1566, ../sass/fonts/_font-awesome.scss */
+.fa-twitch:before {
+  content: "\f1e8";
+}
+
+/* line 1569, ../sass/fonts/_font-awesome.scss */
+.fa-yelp:before {
+  content: "\f1e9";
+}
+
+/* line 1572, ../sass/fonts/_font-awesome.scss */
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
+
+/* line 1575, ../sass/fonts/_font-awesome.scss */
+.fa-wifi:before {
+  content: "\f1eb";
+}
+
+/* line 1578, ../sass/fonts/_font-awesome.scss */
+.fa-calculator:before {
+  content: "\f1ec";
+}
+
+/* line 1581, ../sass/fonts/_font-awesome.scss */
+.fa-paypal:before {
+  content: "\f1ed";
+}
+
+/* line 1584, ../sass/fonts/_font-awesome.scss */
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+
+/* line 1587, ../sass/fonts/_font-awesome.scss */
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+
+/* line 1590, ../sass/fonts/_font-awesome.scss */
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+/* line 1593, ../sass/fonts/_font-awesome.scss */
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+
+/* line 1596, ../sass/fonts/_font-awesome.scss */
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+
+/* line 1599, ../sass/fonts/_font-awesome.scss */
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+
+/* line 1602, ../sass/fonts/_font-awesome.scss */
+.fa-cc-stripe:before {
+  content: "\f1f5";
+}
+
+/* line 1605, ../sass/fonts/_font-awesome.scss */
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+
+/* line 1608, ../sass/fonts/_font-awesome.scss */
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+
+/* line 1611, ../sass/fonts/_font-awesome.scss */
+.fa-trash:before {
+  content: "\f1f8";
+}
+
+/* line 1614, ../sass/fonts/_font-awesome.scss */
+.fa-copyright:before {
+  content: "\f1f9";
+}
+
+/* line 1617, ../sass/fonts/_font-awesome.scss */
+.fa-at:before {
+  content: "\f1fa";
+}
+
+/* line 1620, ../sass/fonts/_font-awesome.scss */
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
+
+/* line 1623, ../sass/fonts/_font-awesome.scss */
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+/* line 1626, ../sass/fonts/_font-awesome.scss */
+.fa-birthday-cake:before {
+  content: "\f1fd";
+}
+
+/* line 1629, ../sass/fonts/_font-awesome.scss */
+.fa-area-chart:before {
+  content: "\f1fe";
+}
+
+/* line 1632, ../sass/fonts/_font-awesome.scss */
+.fa-pie-chart:before {
+  content: "\f200";
+}
+
+/* line 1635, ../sass/fonts/_font-awesome.scss */
+.fa-line-chart:before {
+  content: "\f201";
+}
+
+/* line 1638, ../sass/fonts/_font-awesome.scss */
+.fa-lastfm:before {
+  content: "\f202";
+}
+
+/* line 1641, ../sass/fonts/_font-awesome.scss */
+.fa-lastfm-square:before {
+  content: "\f203";
+}
+
+/* line 1644, ../sass/fonts/_font-awesome.scss */
+.fa-toggle-off:before {
+  content: "\f204";
+}
+
+/* line 1647, ../sass/fonts/_font-awesome.scss */
+.fa-toggle-on:before {
+  content: "\f205";
+}
+
+/* line 1650, ../sass/fonts/_font-awesome.scss */
+.fa-bicycle:before {
+  content: "\f206";
+}
+
+/* line 1653, ../sass/fonts/_font-awesome.scss */
+.fa-bus:before {
+  content: "\f207";
+}
+
+/* line 1656, ../sass/fonts/_font-awesome.scss */
+.fa-ioxhost:before {
+  content: "\f208";
+}
+
+/* line 1659, ../sass/fonts/_font-awesome.scss */
+.fa-angellist:before {
+  content: "\f209";
+}
+
+/* line 1662, ../sass/fonts/_font-awesome.scss */
+.fa-cc:before {
+  content: "\f20a";
+}
+
+/* line 1665, ../sass/fonts/_font-awesome.scss */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "\f20b";
+}
+
+/* line 1670, ../sass/fonts/_font-awesome.scss */
+.fa-meanpath:before {
+  content: "\f20c";
 }
 
 /*! jQuery UI - v1.10.4 - 2014-06-26
@@ -10456,7 +10622,7 @@ button.close {
   list-style: none;
 }
 
-/* line 32, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 31, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-helper-clearfix:before,
 .ui-helper-clearfix:after {
   content: "";
@@ -10533,7 +10699,7 @@ button.close {
   display: block;
 }
 
-/* line 97, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 96, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-resizable-disabled .ui-resizable-handle,
 .ui-resizable-autohide .ui-resizable-handle {
   display: none;
@@ -10681,7 +10847,7 @@ button.close {
   /* removes extra width in IE */
 }
 
-/* line 210, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 206, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-button,
 .ui-button:link,
 .ui-button:visited,
@@ -10724,20 +10890,20 @@ button.ui-button-icons-only {
   padding: .4em 1em;
 }
 
-/* line 237, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 236, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-button-icon-only .ui-button-text,
 .ui-button-icons-only .ui-button-text {
   padding: .4em;
   text-indent: -9999999px;
 }
 
-/* line 242, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 241, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-button-text-icon-primary .ui-button-text,
 .ui-button-text-icons .ui-button-text {
   padding: .4em 1em .4em 2.1em;
 }
 
-/* line 246, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 245, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-button-text-icon-secondary .ui-button-text,
 .ui-button-text-icons .ui-button-text {
   padding: .4em 2.1em .4em 1em;
@@ -10756,7 +10922,7 @@ input.ui-button {
 }
 
 /* button icon element(s) */
-/* line 263, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 259, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-button-icon-only .ui-icon,
 .ui-button-text-icon-primary .ui-icon,
 .ui-button-text-icon-secondary .ui-icon,
@@ -10773,14 +10939,14 @@ input.ui-button {
   margin-left: -8px;
 }
 
-/* line 274, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 272, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-button-text-icon-primary .ui-button-icon-primary,
 .ui-button-text-icons .ui-button-icon-primary,
 .ui-button-icons-only .ui-button-icon-primary {
   left: .5em;
 }
 
-/* line 279, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 277, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-button-text-icon-secondary .ui-button-icon-secondary,
 .ui-button-text-icons .ui-button-icon-secondary,
 .ui-button-icons-only .ui-button-icon-secondary {
@@ -10801,7 +10967,7 @@ input.ui-button {
 
 /* workarounds */
 /* reset extra padding in Firefox, see h5bp.com/l */
-/* line 295, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 294, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 input.ui-button::-moz-focus-inner,
 button.ui-button::-moz-focus-inner {
   border: 0;
@@ -10821,7 +10987,7 @@ button.ui-button::-moz-focus-inner {
   padding: .2em 0;
 }
 
-/* line 309, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 308, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-datepicker .ui-datepicker-prev,
 .ui-datepicker .ui-datepicker-next {
   position: absolute;
@@ -10830,7 +10996,7 @@ button.ui-button::-moz-focus-inner {
   height: 1.8em;
 }
 
-/* line 316, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 315, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-datepicker .ui-datepicker-prev-hover,
 .ui-datepicker .ui-datepicker-next-hover {
   top: 1px;
@@ -10856,7 +11022,7 @@ button.ui-button::-moz-focus-inner {
   right: 1px;
 }
 
-/* line 332, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 331, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-datepicker .ui-datepicker-prev span,
 .ui-datepicker .ui-datepicker-next span {
   display: block;
@@ -10880,7 +11046,7 @@ button.ui-button::-moz-focus-inner {
   margin: 1px 0;
 }
 
-/* line 350, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 349, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-datepicker select.ui-datepicker-month,
 .ui-datepicker select.ui-datepicker-year {
   width: 49%;
@@ -10908,7 +11074,7 @@ button.ui-button::-moz-focus-inner {
   padding: 1px;
 }
 
-/* line 370, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 369, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-datepicker td span,
 .ui-datepicker td a {
   display: block;
@@ -10974,7 +11140,7 @@ button.ui-button::-moz-focus-inner {
   width: 25%;
 }
 
-/* line 417, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 416, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
 .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
   border-left-width: 0;
@@ -11032,13 +11198,13 @@ button.ui-button::-moz-focus-inner {
   float: left;
 }
 
-/* line 456, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 455, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
 .ui-datepicker-rtl .ui-datepicker-group {
   float: right;
 }
 
-/* line 460, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 459, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
 .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
   border-right-width: 0;
@@ -11169,7 +11335,7 @@ button.ui-button::-moz-focus-inner {
   font-weight: normal;
 }
 
-/* line 558, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 557, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-menu .ui-menu-item a.ui-state-focus,
 .ui-menu .ui-menu-item a.ui-state-active {
   font-weight: normal;
@@ -11267,7 +11433,7 @@ button.ui-button::-moz-focus-inner {
 }
 
 /* For IE8 - See #6727 */
-/* line 633, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 632, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-slider.ui-state-disabled .ui-slider-handle,
 .ui-slider.ui-state-disabled .ui-slider-range {
   filter: inherit;
@@ -11437,7 +11603,7 @@ button.ui-button::-moz-focus-inner {
   padding-bottom: 1px;
 }
 
-/* line 758, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
+/* line 756, ../sass/jquery-ui/_jquery-ui-1.10.4.custom.scss */
 .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
 .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
 .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
