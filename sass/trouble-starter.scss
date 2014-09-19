@@ -1,25 +1,46 @@
-/*
-	Front-end Trouble Starter
-	Quick webpage start framework
+/**
+ * Front-end Trouble Starter
+ * Quick webpage start framework
+ *
+ * CONTENTS
+ *
+ * BOOTSTRAP
+ * /bootstrap..................Core sass bootstrap partials ( https://github.com/twbs/bootstrap-sass )
+ *
+ * ADDITIONAL FONTS
+ * /fonts......................Each partial contains @font-face declaration, one file for each font
+ * 
+ * JQUERY USER INTERFACE
+ * /jquery-ui..................Partial contains core jQuery UI styles
+ *
+ * PROJECT ORIENTED PARTIALS
+ * /project......................Keeps all project related styles
+ *   /core.......................Very basic style declarations, contains mixins, colors list, template related CSS code
+ *   /modules....................Custom made modules, project oriented
+ *   /vendor.....................Other third party libraries styles( jquery plugins, jquery ui )
+ *
+ */
 
-	Core files:
-	+bootstrap
-	+jquery
-	+font awesome
-	+custom fonts
+/*------------------------------------*\
+    CORE PARTIALS
+\*------------------------------------*/
+@import "project/core/mixins";
+@import "project/core/rwd";
 
-	Project related:
-	+to be done
 
-*/
-
-/* Core */
-// Bootstrap core css
+/*------------------------------------*\
+    BOOTSTRAP
+\*------------------------------------*/
 @import "bootstrap";
-// Additional Fonts
-@import "fonts/font-awesome";
-// jQuery User Interface
-@import "jquery-ui/jquery-ui-1.10.4.custom";
 
-/* Project related */
-// @import "project/some-file"
+
+/*------------------------------------*\
+    ADDITIONAL FONTS
+\*------------------------------------*/
+@import "fonts/font-awesome";
+
+
+/*------------------------------------*\
+    JQUERY UI
+\*------------------------------------*/
+@import "jquery-ui/jquery-ui-1.10.4.custom";

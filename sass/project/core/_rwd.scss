@@ -1,0 +1,15 @@
+//
+// Premade bootstrap reponsive helper
+// usage: "@include respond-to($breakpoint) { your styles }"
+//
+
+$large-desktops: 1200px;
+$desktops: 992px;
+$tablets: 768px;
+$mobile: 480px;
+
+@mixin respond-to($breakpoint) {
+	@media all and (max-width: $breakpoint) {
+		@content;
+	}
+}

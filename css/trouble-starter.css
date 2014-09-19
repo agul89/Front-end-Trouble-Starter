@@ -1,19 +1,32 @@
 @charset "UTF-8";
-/*
-	Front-end Trouble Starter
-	Quick webpage start framework
-
-	Core files:
-	+bootstrap
-	+jquery
-	+font awesome
-	+custom fonts
-
-	Project related:
-	+to be done
-
-*/
-/* Core */
+/**
+ * Front-end Trouble Starter
+ * Quick webpage start framework
+ *
+ * CONTENTS
+ *
+ * BOOTSTRAP
+ * /bootstrap..................Core sass bootstrap partials ( https://github.com/twbs/bootstrap-sass )
+ *
+ * ADDITIONAL FONTS
+ * /fonts......................Each partial contains @font-face declaration, one file for each font
+ * 
+ * JQUERY USER INTERFACE
+ * /jquery-ui..................Partial contains core jQuery UI styles
+ *
+ * PROJECT ORIENTED PARTIALS
+ * /project......................Keeps all project related styles
+ *   /core.......................Very basic style declarations, contains mixins, colors list, template related CSS code
+ *   /modules....................Custom made modules, project oriented
+ *   /vendor.....................Other third party libraries styles( jquery plugins, jquery ui )
+ *
+ */
+/*------------------------------------*\
+    CORE PARTIALS
+\*------------------------------------*/
+/*------------------------------------*\
+    BOOTSTRAP
+\*------------------------------------*/
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../sass/bootstrap/_normalize.scss */
 html {
@@ -7901,6 +7914,9 @@ button.close {
     display: none !important;
   }
 }
+/*------------------------------------*\
+    ADDITIONAL FONTS
+\*------------------------------------*/
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -10587,6 +10603,9 @@ button.close {
   content: "\f20c";
 }
 
+/*------------------------------------*\
+    JQUERY UI
+\*------------------------------------*/
 /*! jQuery UI - v1.10.4 - 2014-06-26
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css
@@ -11637,5 +11656,3 @@ button.ui-button::-moz-focus-inner {
 body .ui-tooltip {
   border-width: 2px;
 }
-
-/* Project related */
